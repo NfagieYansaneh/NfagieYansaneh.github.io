@@ -1,7 +1,17 @@
 body {
-    background-color: coral
+    background-color: coral;
 }
 
 h2 {
-    color : red
+    color : red;
+}
+
+p {
+    outline-color: aqua;
+    font-family: cursive;
+    font-size: %300;
+}
+
+#p01 {
+    border: 5px solid powderblue;
 }
