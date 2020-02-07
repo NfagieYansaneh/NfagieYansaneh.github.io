@@ -1,31 +1,48 @@
 body {
+    background-color: aqua;
     margin: 10px;
 }
 
-#heading {
-    background-color: aqua;
-    padding: 50px;
+h1 {
+    background-color: azure;
+    border: 5px solid powderblue;
+    padding: 5px;
     text-align: center;
-    font-size: 70px;
-    font-family: fantasy;
+    font-family: monospace;
+    font-size: 220%;
 }
 
 #container {
     background-color: black;
+    height: 300px;
+    margin-bottom: 10px;
 }
 
-#menu {
-    float: left;
-    width: 30%;
+#imagery {
+    background-color: antiquewhite;
     height: 300px;
-    background: #ff0000;
-    padding: 0px;
+    width: 40%;
+    float: left;
+    text-align: center;
 }
 
-#content {
-    float: left;
-    width: 70%;
+#usrInput {
+    background-color: coral;
     height: 300px;
-    background-color: brown;
-    padding: 0px;
+    width: 60%;
+    float: left;
+}
+
+#row0 {
+    background-color: chocolate;
+    border: 5px solid darkorange;
+    padding: 10px;
+    margin: 15px;
+}
+
+#row1 {
+    background-color: darkmagenta;
+    border: 5px solid deeppink;
+    padding: 10px;
+    margin: 15px;
 }
