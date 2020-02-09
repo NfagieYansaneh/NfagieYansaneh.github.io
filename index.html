@@ -1,54 +1,23 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
+    
         <link rel="stylesheet" type="text/css" href="mystyles.css">
+        <title>Responsive Page</title>
         
     </head>
     
     <body>
         
-    <script>
-        function updateImg(x){
-            switch(x){
-                case 0:
-                    document.getElementById("pic").src = "unnamed.jpg";
-                    break;
-                
-                case 1:
-                    document.getElementById("pic").src = "nebula.jpg";
-                    break;
-                    
-                case 2:
-                    document.getElementById("pic").src = "orion.jpg";
-                    break;
-                    
-                case 3:
-                    document.getElementById("pic").src = document.getElementById("txt").value;
-                    break;
-            }
-        }
-    </script>
-        
-        <h1>Dorki De Dog & Tay</h1>
-        
-        <div id="container">
-            <div id="imagery">
-                <img id="pic" src="unnamed.jpg" alt="Art photo" height="300px" border="0px">
-            </div>
-            
-            <div id="usrInput">
-                <p id="row0">
-                <input type="button" onclick="updateImg(0)" value="unnamed.jpg">
-                <input type="button" onclick="updateImg(1)" value="nebula.jpg">
-                <input type="button" onclick="updateImg(2)" value="orion.jpg">
-                </p>
-                
-                <p id="row1">
-                <input id="txt" type="text" placeholder="Filename.extension">
-                <input type="button" onclick="updateImg(3)" value="Submit">
-                </p>
-            </div>
+        <div class="header">
+            Header
         </div>
+        
+        <div class="navigation">
+            Navigation
+        </div>
+        
     </body>
 
 </html>

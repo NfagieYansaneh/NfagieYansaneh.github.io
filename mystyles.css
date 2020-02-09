@@ -1,48 +1,16 @@
-body {
-    background-color: aqua;
-    margin: 10px;
-}
-
-h1 {
-    background-color: azure;
-    border: 5px solid powderblue;
+.header {
+    margin: auto;
+    width: 80%;
     padding: 5px;
-    text-align: center;
-    font-family: monospace;
-    font-size: 220%;
+    background-color: yellow;
 }
 
-#container {
-    background-color: black;
-    height: 300px;
-    margin-bottom: 10px;
-}
-
-#imagery {
-    background-color: antiquewhite;
-    height: 300px;
-    width: 40%;
+.navigation {
     float: left;
-    text-align: center;
-}
-
-#usrInput {
-    background-color: coral;
-    height: 300px;
-    width: 60%;
-    float: left;
-}
-
-#row0 {
-    background-color: chocolate;
-    border: 5px solid darkorange;
-    padding: 10px;
-    margin: 15px;
-}
-
-#row1 {
-    background-color: darkmagenta;
-    border: 5px solid deeppink;
-    padding: 10px;
-    margin: 15px;
+    width: 20%;
+    background-color: red;
+    margin: 10px;
+    border: 5px solid black;
+    padding: 5px;
+    height: 150px;
 }
