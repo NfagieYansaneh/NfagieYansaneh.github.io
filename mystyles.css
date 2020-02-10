@@ -1,80 +1,40 @@
-.header {
-    background-color: chartreuse;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 120%;
+.all {
+    width: 97%;
     margin: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 98%;
 }
 
-.nav {
-    background-color: coral;
-    width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    height: 50px;
-    
+.header {
+    background-color: dodgerblue;
+    padding: 4px;
+    text-align: center;
+    font-family: cursive;
 }
 
 .main {
-    background-color: aquamarine;
-    width: 98%;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: deeppink;
     margin-top: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
+    height: 300px;
 }
 
 ul {
+    list-style-type: none;
     padding: 0px;
-}
-
-li {
-    float: left;
+    margin: 0px;
 }
 
 li a {
-    text-decoration: none;
-    color: black;
-    background-color: blueviolet;
-    text-align: center;
-    padding: 11px;
-    margin-left: 5px;
-    margin-top: 5px;
-    float: inherit;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-li a:hover {
-    background-color: crimson;
-}
-
-#OmarMk7 {
-    
-}
-
-#DavosWalkerS {
-    
-}
-
-#PischaTi {
-    
-}
-
-#Products {
-    
-}
-
-#Roadmap{
-    
+li a:in-range(20) {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
 }
 
 @media screen and (max-width: 800px){
-    .nav .header .main {
+    .all .header .main {
         width: 100%;
     }
 }
