@@ -46,8 +46,8 @@ li a:hover {
     margin: 10px;
 }
 
-@media screen and (max-width: 800px) {
-    .header .nav .main {
-        width: 100%; 
+@media screen and (max-width: 800px){
+    .nav .header .main { 
+        width: 100%;
     }
 }
