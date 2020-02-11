@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html>
+    <script>
+        
+        function func(sw){
+            switch(sw){
+                case 0:
+                    document.getElementById("pic").src = "unnamed.jpg";
+                    break;
+            }
+        }
+        
+    </script>
     <head>
     
         <link rel="stylesheet" type="text/css" href="mystyles.css">
@@ -17,20 +28,24 @@
             <div class="main">
                 <ul>
                     
-                    <li><a href="#link1">
+                    <li><a href="#link0" onclick="func(0)">
                         <img src="unnamed.jpg" width="200" height="200" alt="">
                     </a></li>
                     
-                    <li><a href="#link2">
+                    <li><a href="#link1">
                         <img src="nebula.jpg" width="200" height="200" alt="">
                     </a></li>
                 
-                    <li><a href="#link3">
+                    <li><a href="#link2">
                         <img src="wrecking-ball-screenshot-004.jpg" width="200" height="200" alt="">
                     </a></li>
                     
                     <li><a href="#link3">
                         <img src="orion.jpg" width="200" height="200" alt="">
+                    </a></li>
+                    
+                    <li><a href="#link4">
+                        <img id="pic" src="wrecking-ball-screenshot-004.jpg" width="200" height="200" alt="">
                     </a></li>
             
                 </ul>
