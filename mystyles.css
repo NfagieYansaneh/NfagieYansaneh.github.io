@@ -28,7 +28,7 @@ li a {
     margin-top: 10px;
 }
 
-li a:in-range(20) {
+li a:hover {
     transform: scale(1.2);
     transition-duration: 0.2s;
 }
