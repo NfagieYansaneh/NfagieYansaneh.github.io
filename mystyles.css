@@ -34,7 +34,7 @@ li a:hover {
 }
 
 #ignore:hover {
-    transform: rotate(3deg);
+    transform: rotate(2deg);
     transition-duration: 0.2s;
 }
 
