@@ -7,6 +7,18 @@
                 case 0:
                     document.getElementById("pic").src = "unnamed.jpg";
                     break;
+                    
+                case 1:
+                    document.getElementById("pic").src = "nebula.jpg";
+                    break;
+                    
+                case 2:
+                    document.getElementById("pic").src = "wrecking-ball-screenshot-004.jpg";
+                    break;
+                    
+                case 3:
+                    document.getElementById("pic").src = "orion.jpg";
+                    break;
             }
         }
         
@@ -32,19 +44,19 @@
                         <img src="unnamed.jpg" width="200" height="200" alt="">
                     </a></li>
                     
-                    <li><a href="#link1">
+                    <li><a href="#link1" onclick="func(1)">
                         <img src="nebula.jpg" width="200" height="200" alt="">
                     </a></li>
                 
-                    <li><a href="#link2">
+                    <li><a href="#link2" onclick="func(2)">
                         <img src="wrecking-ball-screenshot-004.jpg" width="200" height="200" alt="">
                     </a></li>
                     
-                    <li><a href="#link3">
+                    <li><a href="#link3" onclick="func(3)">
                         <img src="orion.jpg" width="200" height="200" alt="">
                     </a></li>
                     
-                    <li><a href="#link4">
+                    <li><a href="#link4" id="ignore">
                         <img id="pic" src="wrecking-ball-screenshot-004.jpg" width="200" height="200" alt="">
                     </a></li>
             

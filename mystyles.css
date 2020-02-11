@@ -33,6 +33,11 @@ li a:hover {
     transition-duration: 0.2s;
 }
 
+#ignore:hover {
+    transform: rotate(3deg);
+    transition-duration: 0.2s;
+}
+
 @media screen and (max-width: 800px){
     .all .header .main {
         width: 100%;
