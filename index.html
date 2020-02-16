@@ -1,69 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <script>
-        
-        function func(x){
-            switch(x){
-                case 0:
-                    document.getElementById("pic").src = "unnamed.jpg";
-                    break;
-                    
-                case 1:
-                    document.getElementById("pic").src = "nebula.jpg";
-                    break;
-                    
-                case 2:
-                    document.getElementById("pic").src = "wrecking-ball-screenshot-004.jpg";
-                    break;
-                    
-                case 3:
-                    document.getElementById("pic").src = "orion.jpg";
-                    break;
-            }
-        }
-        
-    </script>
     <head>
-    
         <link rel="stylesheet" type="text/css" href="mystyles.css">
-        <title>Omar Mk7</title>
-        
     </head>
-
+    
     <body>
         <div class="all">
-
+            
             <div class="header">
-                WELCOME!!!
+                <img id="logo" src="wrecking-ball-screenshot-004.jpg" width="200" height="100" alt="">
+                
+                <ul>
+                    <li><a href="#">
+                        Link 1
+                    </a></li>
+                    
+                    <li><a href="#">
+                        Link 2
+                    </a></li>
+                    
+                    <li><a href="#">
+                        Link 3
+                    </a></li>
+                    
+                    <li><a href="#">
+                        Link 4
+                    </a></li>
+                    
+                    <li><a href="#">
+                        Link 5
+                    </a></li>
+
+                </ul>
+            </div>
+            
+            <div class="quote">
+                “The only way to discover the limits of the possible is to go beyond them into the impossible” – Arthur C. Clarke
             </div>
             
             <div class="main">
-                <ul>
-                    
-                    <li><a href="#link0" onclick="func(0)">
-                        <img src="unnamed.jpg" width="200" height="200" alt="">
-                    </a></li>
-                    
-                    <li><a href="#link1" onclick="func(1)">
-                        <img src="nebula.jpg" width="200" height="200" alt="">
-                    </a></li>
-                
-                    <li><a href="#link2" onclick="func(2)">
-                        <img src="wrecking-ball-screenshot-004.jpg" width="200" height="200" alt="">
-                    </a></li>
-                    
-                    <li><a href="#link3" onclick="func(3)">
-                        <img src="orion.jpg" width="200" height="200" alt="">
-                    </a></li>
-                    
-                    <li><a href="#link4" id="ignore">
-                        <img id="pic" src="wrecking-ball-screenshot-004.jpg" width="200" height="200" alt="">
-                    </a></li>
             
-                </ul>
             </div>
-        
         </div>
-        
     </body>
 </html>
