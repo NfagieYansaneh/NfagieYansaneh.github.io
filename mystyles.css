@@ -3,21 +3,45 @@
     border-style: dotted;
     width: 98%;
     margin: auto;
-    overflow: auto;
+    overflow: visible;
 }
 
 .header {
     float: left;
-    height: 130px;
+    height: 120px;
+    width: 100%;
 }
 
 .quote {
-    background-color: aquamarine;
+    font-family: monospace;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border: 1px dotted black;
+    
 }
 
 .main {
+    background-color: rebeccapurple;
+    padding-top: 30px;
 
 }
+
+.imagery {
+    width: 85%;
+    margin: auto;
+}
+
+.imagery img {
+    transition: transform 0.2s ease-in-out;
+    margin-left: 35px;
+}
+
+.imagery img:hover {
+    transform: scale(1.1);
+}
+
+
 
 ul {
     overflow: visible;
