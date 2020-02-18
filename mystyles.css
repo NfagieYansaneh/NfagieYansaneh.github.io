@@ -1,3 +1,15 @@
+.background {
+    width: 100%;
+    background-image:  linear-gradient(to bottom right, #0099FF,  #CC00FF);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .all {
     border: 1px solid black;
     border-style: dotted;
@@ -79,7 +91,7 @@ li a {
     color: black;
     padding: 25px 50px;
     background-color: royalblue;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #d0d3d4;
     transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
