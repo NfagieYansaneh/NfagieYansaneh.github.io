@@ -37,10 +37,27 @@
     margin-left: 35px;
 }
 
-.imagery img:hover {
-    transform: scale(1.1);
+.imagery p {
+    margin: 10px;
+    text-align: center;
 }
 
+.wrapper {
+    text-align: center;
+}
+
+.imagery button {
+    
+}
+
+.imagery img:hover {
+    transform: scale(1.05);
+}
+
+.append {
+    width: 32%;
+    float: left;
+}
 
 
 ul {
@@ -64,6 +81,10 @@ li a {
     background-color: royalblue;
     border-bottom: 5px solid black;
     transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#signin {
+    margin-left: 50px;
 }
 
 li a:hover {
