@@ -3,7 +3,7 @@
     background-image:  linear-gradient(to bottom right, #0099FF,  #CC00FF);
     position: absolute;
     margin: 0;
-    padding: 0;
+    padding:0;
     left: 0;
     top: 0;
     height: 100vh;
@@ -28,7 +28,7 @@
 
 #quotebackground {
     background-image: linear-gradient(to bottom right, red, blue);
-    border-bottom: 10px solid green;
+    border-bottom: 5px solid orange;
 }
 
 .quote {
@@ -40,7 +40,7 @@
 
 .main {
     background-color: rebeccapurple;
-    padding-top: px;
+    margin-top: 15px;
 
 }
 
