@@ -13,15 +13,15 @@
 .all {
     border: 1px solid black;
     border-style: dotted;
-    width: 98%;
+
     margin: auto;
     overflow: visible;
 }
 
 .header {
     float: left;
-    height: 120px;
     width: 100%;
+    background-color: black;
 }
 
 .quote {
@@ -105,8 +105,9 @@ li a:hover {
 }
 
 #logo {
-    float: inherit;
+    float: left;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 800px){
