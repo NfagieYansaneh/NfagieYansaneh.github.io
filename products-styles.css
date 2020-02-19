@@ -1,4 +1,4 @@
-body {
+html {
     background-image: url("orion.jpg");
     background-size: 120% 120%;
     animation: blend 10s ease-out infinite;
