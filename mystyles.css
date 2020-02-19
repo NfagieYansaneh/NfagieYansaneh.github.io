@@ -11,7 +11,7 @@
 }
 
 .all {
-    
+
     margin: auto;
     overflow: visible;
 }
@@ -23,20 +23,24 @@
     border-bottom-color: darkgray;
     border-bottom-width: 5px;
     background-color: #17202a;
+    margin-bottom: 10px;
+}
+
+#quotebackground {
+    background-image: linear-gradient(to bottom right, red, blue);
+    border-bottom: 10px solid green;
 }
 
 .quote {
     font-family: monospace;
     width: 40%;
     margin: auto;
-    top: 10px;
-    position: relative;
     text-align: center;
 }
 
 .main {
     background-color: rebeccapurple;
-    padding-top: 30px;
+    padding-top: px;
 
 }
 
@@ -86,8 +90,8 @@ ul {
 
 li {
     float: left;
-    margin-top: 27px;
-    margin-bottom: 27px;
+    padding-top: 27px;
+    padding-bottom: 27px;
 }
 
 li a {
