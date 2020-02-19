@@ -2,6 +2,7 @@ body {
     background-image: linear-gradient(305deg, #ff0000, #0005ff, #3aff00);
     background-size: 600% 600%;
     animation: blend 13s ease infinite;
+    background-repeat: no-repeat;
 }
 
 @keyframes blend {
