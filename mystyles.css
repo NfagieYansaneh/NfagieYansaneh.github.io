@@ -11,7 +11,7 @@
 }
 
 .all {
-
+    
     margin: auto;
     overflow: visible;
 }
@@ -23,24 +23,33 @@
     border-bottom-color: darkgray;
     border-bottom-width: 5px;
     background-color: #17202a;
+<<<<<<< HEAD
     margin-bottom: 10px;
 }
 
 #quotebackground {
     background-image: linear-gradient(to bottom right, red, blue);
     border-bottom: 5px solid orange;
+=======
+>>>>>>> parent of faa3182... Navigation update
 }
 
 .quote {
     font-family: monospace;
     width: 40%;
     margin: auto;
+    top: 10px;
+    position: relative;
     text-align: center;
 }
 
 .main {
     background-color: rebeccapurple;
+<<<<<<< HEAD
     margin-top: 15px;
+=======
+    padding-top: 30px;
+>>>>>>> parent of faa3182... Navigation update
 
 }
 
@@ -90,8 +99,8 @@ ul {
 
 li {
     float: left;
-    padding-top: 27px;
-    padding-bottom: 27px;
+    margin-top: 27px;
+    margin-bottom: 27px;
 }
 
 li a {
