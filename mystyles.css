@@ -76,26 +76,30 @@
     float: left;
 }
 
+/*----- Navigation Bar -----*/
 
+/* Spacing between selections*/
 ul {
-    overflow: visible;
-    position: relative;
+    /*Slides Navigation bar down*/
+    position: relative; 
     top: 2px;
-    float: inherit;
+    
     list-style: none;
+    
+    /* Compensates for logo */
     margin: 0;
-    margin-left: 220px;
+    margin-left: 220px; 
     padding: 0;
 }
 
+/* Sets size of buttons and floats them to the left */
 li {
     float: left;
-    margin-top: 27px;
-    margin-bottom: 27px;
+    padding-top: 27px;
+    padding-bottom: 27px;
 }
 
 li a {
-    margin-right: 10px;
     text-decoration: none;
     color: darkgray;
     font-family: monospace;
@@ -106,13 +110,13 @@ li a {
     transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-#signin {
-    margin-left: 170px;
-}
-
 li a:hover {
     border-color: white;
     color: white;
+}
+
+#signin {
+    margin-left: 170px;
 }
 
 #logo {
