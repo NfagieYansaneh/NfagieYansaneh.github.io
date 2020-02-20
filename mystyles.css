@@ -11,30 +11,35 @@
 }
 
 .all {
-    border: 1px solid black;
-    border-style: dotted;
-    width: 98%;
+    
     margin: auto;
     overflow: visible;
 }
 
 .header {
     float: left;
-    height: 120px;
     width: 100%;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-bottom-color: darkgray;
+    border-bottom-width: 5px;
+    background-color: #17202a;
+}
+
+#quotebackground {
+    background-image: linear-gradient(to bottom right, red, blue);
+    border-bottom: 5px solid orange;
 }
 
 .quote {
+    color: white;
     font-family: monospace;
     width: 40%;
     margin: auto;
     text-align: center;
-    border: 1px dotted black;
-    
 }
 
 .main {
-    background-color: rebeccapurple;
     padding-top: 30px;
 
 }
@@ -63,7 +68,7 @@
 }
 
 .imagery img:hover {
-    transform: scale(1.05);
+    transform: scale(1.07);
 }
 
 .append {
@@ -74,39 +79,47 @@
 
 ul {
     overflow: visible;
+    position: relative;
+    top: 2px;
     float: inherit;
     list-style: none;
-    margin-left: 30px;
+    margin: 0;
+    margin-left: 220px;
     padding: 0;
 }
 
 li {
     float: left;
     margin-top: 27px;
+    margin-bottom: 27px;
 }
 
 li a {
     margin-right: 10px;
     text-decoration: none;
-    color: black;
-    padding: 25px 50px;
-    background-color: royalblue;
-    border-bottom: 5px solid #d0d3d4;
+    color: darkgray;
+    font-family: monospace;
+    font-size: 130%;
+    padding: 25px 30px;
+    background-color: #17202a;
+    border-bottom: 5px solid darkgray;
     transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 #signin {
-    margin-left: 50px;
+    margin-left: 170px;
 }
 
 li a:hover {
-    border-color: green;
+    border-color: white;
     color: white;
 }
 
 #logo {
-    float: inherit;
-    margin-top: 10px;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    border: 5px solid darkgray;
 }
 
 @media screen and (max-width: 800px){
