@@ -19,23 +19,27 @@
 .header {
     float: left;
     width: 100%;
+    margin-bottom: 15px;
     border-style: solid;
     border-bottom-color: darkgray;
     border-bottom-width: 5px;
     background-color: #17202a;
 }
 
+#quotebackground {
+    background-image: linear-gradient(to bottom right, red, blue);
+    border-bottom: 5px solid orange;
+}
+
 .quote {
+    color: white;
     font-family: monospace;
     width: 40%;
     margin: auto;
-    top: 10px;
-    position: relative;
     text-align: center;
 }
 
 .main {
-    background-color: rebeccapurple;
     padding-top: 30px;
 
 }
@@ -64,7 +68,7 @@
 }
 
 .imagery img:hover {
-    transform: scale(1.05);
+    transform: scale(1.07);
 }
 
 .append {
@@ -113,8 +117,9 @@ li a:hover {
 
 #logo {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    left: 12px;
+    border: 5px solid darkgray;
 }
 
 @media screen and (max-width: 800px){
