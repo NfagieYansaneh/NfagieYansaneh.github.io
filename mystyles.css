@@ -11,72 +11,22 @@
 }
 
 .all {
-    
     margin: auto;
     overflow: visible;
 }
 
+/*----- Navigation Bar -----*/
+
 .header {
+    /* margin-top: 15px; When no quote */
     float: left;
     width: 100%;
     margin-bottom: 15px;
-    border-style: solid;
+    border-bottom-style: solid;
     border-bottom-color: darkgray;
     border-bottom-width: 5px;
     background-color: #17202a;
 }
-
-#quotebackground {
-    background-image: linear-gradient(to bottom right, red, blue);
-    border-bottom: 5px solid orange;
-}
-
-.quote {
-    color: white;
-    font-family: monospace;
-    width: 40%;
-    margin: auto;
-    text-align: center;
-}
-
-.main {
-    padding-top: 30px;
-
-}
-
-.imagery {
-    width: 85%;
-    margin: auto;
-}
-
-.imagery img {
-    transition: transform 0.2s ease-in-out;
-    margin-left: 35px;
-}
-
-.imagery p {
-    margin: 10px;
-    text-align: center;
-}
-
-.wrapper {
-    text-align: center;
-}
-
-.imagery button {
-    
-}
-
-.imagery img:hover {
-    transform: scale(1.07);
-}
-
-.append {
-    width: 32%;
-    float: left;
-}
-
-/*----- Navigation Bar -----*/
 
 /* Spacing between selections*/
 ul {
@@ -115,16 +65,77 @@ li a:hover {
     color: white;
 }
 
-#signin {
+#account {
     margin-left: 170px;
+}
+
+#active {
+    background-color: darkgray;
+    color: #17202a;
 }
 
 #logo {
     position: absolute;
     top: 8px;
-    left: 12px;
+    left: 10px;
     border: 5px solid darkgray;
 }
+
+/*----- Quote --------*/
+
+#quotebackground {
+    background-image: linear-gradient(to bottom right, red, blue);
+    border-bottom: 5px solid orange;
+}
+
+.quote {
+    color: white;
+    font-family: monospace;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+/*----- Main Content -------*/
+
+.main {
+    padding-top: 30px;
+
+}
+
+.imagery {
+    width: 85%;
+    margin: auto;
+}
+
+.imagery img {
+    transition: transform 0.2s ease-in-out;
+    margin-left: 35px;
+}
+
+.imagery p {
+    margin: 10px;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.imagery button {
+    
+}
+
+.imagery img:hover {
+    transform: scale(1.07);
+}
+
+.append {
+    width: 32%;
+    float: left;
+}
+
+/*----- Media Resizing -----*/
 
 @media screen and (max-width: 800px){
     .all .header .quote .main {
