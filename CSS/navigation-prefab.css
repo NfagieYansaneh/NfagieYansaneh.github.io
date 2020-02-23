@@ -1,31 +1,19 @@
-/* body {
-    background-image: linear-gradient(305deg, #ff0000, #0005ff, #3aff00);
-    background-size: 600% 600%;
-    animation: blend 13s ease infinite;
-    background-repeat: no-repeat;
+/* ID */
+
+/* active */
+/* account */
+
+/* use 
+
+.header { 
+    margin-top: 0px;
 }
 
-@keyframes blend {
-    0%{background-position: 0% 50%}
-    50%{background-position: 100% 50%}
-    100%{background-position: 0% 50%}
-} */
+"when using quote */
 
-.background {
-    width: 100%;
-    background-image:  linear-gradient(to bottom right, #0099FF,  #CC00FF);
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    overflow: hidden;
-}
 
 .all {
     margin: auto;
-    overflow: visible;
 }
 
 /*----- Navigation Bar -----*/
