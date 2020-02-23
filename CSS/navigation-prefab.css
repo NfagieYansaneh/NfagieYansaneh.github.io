@@ -1,0 +1,91 @@
+/* ID */
+
+/* active */
+/* account */
+
+/* use 
+
+.header { 
+    margin-top: 0px;
+}
+
+"when using quote */
+
+
+.all {
+    margin: auto;
+}
+
+/*----- Navigation Bar -----*/
+
+.header {
+    margin-top: 15px; /* When no quote */
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+    border-bottom-width: 5px;
+    background-color: #17202a;
+}
+
+/* Spacing between selections*/
+ul {
+    /*Slides Navigation bar down*/
+    position: relative; 
+    top: 2px;
+    
+    list-style: none;
+    
+    /* Compensates for logo */
+    margin: 0;
+    margin-left: 220px; 
+    padding: 0;
+}
+
+/* Sets size of buttons and floats them to the left */
+li {
+    float: left;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+li a {
+    text-decoration: none;
+    color: darkgray;
+    font-family: monospace;
+    font-size: 130%;
+    padding: 25px 30px;
+    background-color: #17202a;
+    border-bottom: 5px solid darkgray;
+    transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+li a:hover {
+    border-color: white;
+    color: white;
+}
+
+#account {
+    margin-left: 170px;
+}
+
+#active {
+    background-color: darkgray;
+    color: #17202a;
+}
+
+#logo {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    border: 5px solid darkgray;
+}
+
+/*----- Media Resizing -----*/
+
+@media screen and (max-width: 800px){
+    .all .header .quote .main {
+        width: 100%;
+    }
+}
