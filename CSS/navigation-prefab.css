@@ -66,13 +66,13 @@ li a:hover {
     color: white;
 }
 
-#account {
-    margin-left: 170px;
-}
-
 #active {
     background-color: darkgray;
     color: #17202a;
+}
+
+#active:hover {
+    color: white;
 }
 
 #logo {
