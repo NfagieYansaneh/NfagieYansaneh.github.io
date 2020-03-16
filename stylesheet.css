@@ -65,4 +65,11 @@ body {
     width: 100%;
 }
 
+#logoImg {
+    position: fixed;
+    left: 54px;
+    width: 10.9%;
+    height: 15.6%;
+}
+
 /* @media thing */
