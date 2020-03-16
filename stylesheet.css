@@ -1,10 +1,12 @@
-.all {
+body {
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.standardMargin {
     width: 95.8%;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
-    float: top;
 }
 
 .header {
@@ -22,6 +24,9 @@
 
 .gallery {
     height: 50.2%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     background-color: green;
     margin-bottom: 23px;
 }
