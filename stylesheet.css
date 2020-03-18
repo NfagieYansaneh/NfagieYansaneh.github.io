@@ -15,11 +15,45 @@ body {
 }
 
 .navigation {
-    padding-top: 28px;
-    padding-bottom: 25px;
+    height: 53px;
     width: 100%;
     background-color: aqua;
-    text-align: center;
+    overflow: hidden;
+}
+
+ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    border-bottom: 7px solid;
+}
+
+.listShift {
+    margin-left: 200px;
+}
+
+li {
+    list-style: none;
+    float: left;
+    display: block;
+    height: 100%;
+}
+
+li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 28px;
+    color: black;
+    display: block;
+    transition: background-color 0.2s ease-in-out;
+}
+
+li a:hover {
+    background-color: darkorchid;
 }
 
 .gallery {
