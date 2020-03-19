@@ -3,6 +3,7 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 }
+
 .standardMargin {
     width: 95.8%;
     margin-left: auto;
@@ -38,7 +39,6 @@ ul {
 li {
     list-style: none;
     float: left;
-    display: block;
     height: 100%;
 }
 
@@ -50,6 +50,7 @@ li a {
     color: black;
     display: block;
     transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
 }
 
 li a:hover {
@@ -63,13 +64,12 @@ li a:hover {
     margin-right: 0;
     background-color: green;
     margin-bottom: 23px;
+    overflow: hidden;
 }
 
 #descImg {
     width: 27.4%;
     margin-right: 18px;
-    position: relative;
-    top: -40px;
     float: left;
 }
 
