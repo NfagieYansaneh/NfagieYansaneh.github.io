@@ -3,11 +3,38 @@
     <!-- NOTE ADD ANOTHER PAGE, only have 5 planned currently !-->
     
     <script>
-        function change(x){
-            switch(x){
+        var index=0;
+        var numOfPhotos=4;
+        
+        function update(x){
+            if(x<-1 || x>1){
+                return;
+            }
+            
+            if(x<0 && index==0){
+                index = 3;
+            } else if (x>0 && index==(numOfPhotos-1)){
+                index = 0;
+            } else {
+                index += x;
+            }
+            
+            switch(index){
                 case 0:
-                document.getElementById("galleryImg").src = "";
-                    break;       
+                    document.getElementById("galleryImg").src = "MEDIA/cropped%20picture.png";
+                    break;
+                case 1:
+                    document.getElementById("galleryImg").src = 
+                    "MEDIA/orion.jpg";
+                    break;
+                case 2:
+                    document.getElementById("galleryImg").src =
+                    "MEDIA/boots.jpg";
+                    break;
+                case 3:
+                    document.getElementById("galleryImg").src =
+                    "MEDIA/Hartwell.jpg";
+                    break;
             }
         }
     </script>
@@ -38,11 +65,11 @@
             <div class="galleryImgWrapper">
                 <div class="galleryImgChangeShift">
                 <div id="left">
-                <button>Left</button>
+                <button onclick="update(-1)">Left</button>
                 </div>
             
                 <div class="galleryImgChange" id="right">
-                <button>Right</button>
+                <button onclick="update(1)">Right</button>
                 </div>
                 </div>
             </div>
