@@ -73,8 +73,15 @@ li a:hover {
     position: absolute;
 }
 
-.galleryImgChangeShift{
+.galleryImgChangeShift {
     
+}
+
+#galleryImgMiniDesc {
+    width: 50%;
+    margin-top: 100px;
+    text-align: center;
+    position: absolute;
 }
 
 #left {
