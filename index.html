@@ -41,6 +41,8 @@
                     break;
             }
         }
+        
+    <!--Add ability to read from file--!>
     </script>
     
     <head>
@@ -66,19 +68,20 @@
         </div>
         
         <div class="gallery">
-            <div class="galleryImgWrapper">
-                <div class="galleryImgChangeShift">
+            <div class="galleryImgFlex">
                 <div id="left">
                 <button onclick="update(-1)">Left</button>
                 </div>
-            
+                <div style="flex-grow:1;"></div>
                 <div class="galleryImgChange" id="right">
                 <button onclick="update(1)">Right</button>
                 </div>
-                </div>
             </div>
             
-            <div id="galleryImgMiniDesc"><h3 id="galleryImgMiniDescTxt">Testing</h3></div>
+            <div id="galleryImgMiniDescWrapper">
+                <div style="flex-grow:1;"></div>
+                <h3 id="galleryImgMiniDescTxt">Image 0 - Power Plants</h3>
+            </div>
             
             <img id="galleryImg" src="MEDIA/cropped%20picture.png" width=100% height=100%>
         </div>
