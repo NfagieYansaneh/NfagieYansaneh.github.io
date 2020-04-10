@@ -6,19 +6,7 @@
         var index=0;
         var numOfPhotos=4;
         
-        function update(x){
-            if(x<-1 || x>1){
-                return;
-            }
-            
-            if(x<0 && index==0){
-                index = 3;
-            } else if (x>0 && index==(numOfPhotos-1)){
-                index = 0;
-            } else {
-                index += x;
-            }
-            
+        function updateImg() {
             switch(index){
                 case 0:
                     document.getElementById("galleryImg").src = "MEDIA/cropped%20picture.png";
@@ -40,6 +28,27 @@
                     document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 3 - Water well";
                     break;
             }
+        }
+           
+        function update(x){
+            if(x<-1 || x>1){
+                return;
+            }
+            
+            if(x<0 && index==0){
+                index = 3;
+            } else if (x>0 && index==(numOfPhotos-1)){
+                index = 0;
+            } else {
+                index += x;
+            }
+            
+            updateImg();
+        }
+        
+        function set(x){
+            index=x;
+            updateImg();
         }
         
     <!--Add ability to read from file--!>
@@ -79,8 +88,15 @@
             </div>
             
             <div id="galleryImgMiniDescWrapper">
-                <div style="flex-grow:1;"></div>
+                <div style="flex-grow:100;"></div>
                 <h3 id="galleryImgMiniDescTxt">Image 0 - Power Plants</h3>
+                
+                <div id="galleryMiniNav">
+                    <img class="galleryMiniNavItems" src="MEDIA/cropped%20picture.png" width="20%" height="80%" onclick="set(0)" href="#">
+                    <img class="galleryMiniNavItems" src="MEDIA/orion.jpg" width="20%" height="80%" onclick="set(1)">
+                    <img class="galleryMiniNavItems" src="MEDIA/boots.jpg" width="20%" height="80%" onclick="set(2)">
+                    <img class="galleryMiniNavItems" src="MEDIA/Hartwell.jpg" width="20%" height="80%" onclick="set(3)">
+                </div>
             </div>
             
             <img id="galleryImg" src="MEDIA/cropped%20picture.png" width=100% height=100%>

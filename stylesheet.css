@@ -91,6 +91,26 @@ li a:hover {
     text-align: center;
 }
 
+#galleryMiniNav {
+    flex-grow: 1;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+.galleryMiniNavItems {
+    border: 0px;
+    transition: transform .2s;
+    pointer-events: all;
+}
+
+.galleryMiniNavItems:hover {
+    transform: scale(1.1);
+}
+
 
 #left {
     margin-left: 20px;
