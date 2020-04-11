@@ -5,7 +5,6 @@
 
 .segment {
     display: inline;
-    background-color: indigo;
     width: 48.5%;
     height: 400px;
     display: flex;

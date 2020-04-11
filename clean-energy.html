@@ -1,4 +1,54 @@
 <html>
+    <script>
+        var index=0;
+        var numOfPhotos=4;
+        
+        function updateImg() {
+            switch(index){
+                case 0:
+                    document.getElementById("galleryImg").src = "MEDIA/cropped%20picture.png";
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 0 - Power Plants";
+                    break;
+                case 1:
+                    document.getElementById("galleryImg").src = 
+                    "MEDIA/orion.jpg";
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 1 - Orion";
+                    break;
+                case 2:
+                    document.getElementById("galleryImg").src =
+                    "MEDIA/boots.jpg";
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 2 - Boots";
+                    break;
+                case 3:
+                    document.getElementById("galleryImg").src =
+                    "MEDIA/Hartwell.jpg";
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 3 - Water well";
+                    break;
+            }
+        }
+           
+        function update(x){
+            if(x<-1 || x>1){
+                return;
+            }
+            
+            if(x<0 && index==0){
+                index = 3;
+            } else if (x>0 && index==(numOfPhotos-1)){
+                index = 0;
+            } else {
+                index += x;
+            }
+            
+            updateImg();
+        }
+        
+        function set(x){
+            index=x;
+            updateImg();
+        }
+    </script>
+    
     <head>
     <link href="global-stylesheet.css" type="text/css" rel="stylesheet">
     <link href="clean-energy-stylesheet.css" type="text/css" rel="stylesheet">
@@ -26,5 +76,43 @@
             </div>
         </div>
         
+                <!-- Gallery !-->
+        <div class="gallery">
+            <div class="galleryImgFlex">
+                <div id="left">
+                <button onclick="update(-1)">Left</button>
+                </div>
+                <div style="flex-grow:1;"></div>
+                <div class="galleryImgChange" id="right">
+                <button onclick="update(1)">Right</button>
+                </div>
+            </div>
+            
+            <div id="galleryImgMiniDescWrapper">
+                <div style="flex-grow:100;"></div>
+                <h3 id="galleryImgMiniDescTxt">Image 0 - Power Plants</h3>
+                
+                <div id="galleryMiniNav">
+                    <img class="galleryMiniNavItems" src="MEDIA/cropped%20picture.png" width="20%" height="80%" onclick="set(0)" href="#">
+                    <img class="galleryMiniNavItems" src="MEDIA/orion.jpg" width="20%" height="80%" onclick="set(1)">
+                    <img class="galleryMiniNavItems" src="MEDIA/boots.jpg" width="20%" height="80%" onclick="set(2)">
+                    <img class="galleryMiniNavItems" src="MEDIA/Hartwell.jpg" width="20%" height="80%" onclick="set(3)">
+                </div>
+            </div>
+            
+            <img id="galleryImg" src="MEDIA/cropped%20picture.png" width=100% height=100%>
+        </div>
+        
+        <div class="globalMargin">
+            <div class="wrapper">
+                <div class="segment">
+                </div>
+            
+                <div style="flex-grow:1;"></div>
+                
+                <div class="segment">
+                </div>
+            </div>
+        </div>
     </body>
 </html>
