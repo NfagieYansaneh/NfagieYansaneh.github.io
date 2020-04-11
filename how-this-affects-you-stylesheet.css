@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.segment {
+    width: 47.2%;
+    height: 400px;
+    background-color: deeppink;
+}
