@@ -57,6 +57,22 @@
             location.href="/how-this-affects-you.html";
         }
         
+    </script> <!-- Gallery Script -->
+    <script> 
+    const DONE = 4;
+        
+    function call(){
+        var client = new XMLHttpRequest();
+        
+        client.open('GET', 'test.txt');
+        client.onreadystatechange = function() {
+            if(XMLHttpRequest.readyState == DONE)
+                alert(client.responseText);
+        }
+    
+        client.send();
+    }
+        
     </script>
     <!-- Add ability to read from file !-->
     
@@ -125,6 +141,7 @@
                     <div class="descTxtBox">
                     </div>
                     <button id="learnMoreButton" onclick="link()">Learn More</button>
+                    <button id="learnMoreButton" onclick="call()">Call</button>
                 </div>
             </div>
         </div>
