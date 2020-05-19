@@ -58,27 +58,24 @@
         }
         
     </script> <!-- Gallery Script -->
-    
     <script> 
-    const DONE = 4;
         
-    function call(){
+    function readSetID(filename, id){
         var file = new XMLHttpRequest();
         
-        file.open('GET', 'test.txt');
+        file.open('GET', filename);
         file.onload = function() {
-            alert("Txt: " + file.responseText + " Status: " + file.status);
+            document.getElementById(id).innerHTML = file.responseText;
         }
     
         file.send();
     }
         
-    </script>
+    </script> <!-- Reads from file and re writes innerHTML -->
     <!-- Add ability to read from file !-->
     
     <head>
     <link href="global-stylesheet.css" type="text/css" rel="stylesheet">    
-        
     <link href="index-stylesheet.css" type="text/css" rel="stylesheet">
     </head>
     
@@ -138,13 +135,17 @@
                 <img id="descImg" src="MEDIA/croppedhouse.jpg" alt="">
                 
                 <div class="descText">
-                    <div class="descTxtBox">
-                    </div>
+                    
+                    <div id="descTxtBox"></div>
+                    <script>readSetID("index#0.txt", "descTxtBox");</script>
+                    
                     <button id="learnMoreButton" onclick="link()">Learn More</button>
                     <button id="learnMoreButton" onclick="call()">Call</button>
                 </div>
             </div>
         </div>
+        
+        <!-- Fill out txt boxes -->
         
     </body>
     

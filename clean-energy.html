@@ -48,6 +48,20 @@
             updateImg();
         }
     </script>
+    <script> 
+        
+    function readSetID(filename, id){
+        var file = new XMLHttpRequest();
+        
+        file.open('GET', filename);
+        file.onload = function() {
+            document.getElementById(id).innerHTML = file.responseText;
+        }
+    
+        file.send();
+    }
+        
+    </script> <!-- Reads from file and re writes innerHTML -->
     
     <head>
     <link href="global-stylesheet.css" type="text/css" rel="stylesheet">
