@@ -58,19 +58,19 @@
         }
         
     </script> <!-- Gallery Script -->
+    
     <script> 
     const DONE = 4;
         
     function call(){
-        var client = new XMLHttpRequest();
+        var file = new XMLHttpRequest();
         
-        client.open('GET', 'test.txt');
-        client.onreadystatechange = function() {
-            if(XMLHttpRequest.readyState == DONE)
-                alert(client.responseText);
+        file.open('GET', 'test.txt');
+        file.onload = function() {
+            alert("Txt: " + file.responseText + " Status: " + file.status);
         }
     
-        client.send();
+        file.send();
     }
         
     </script>
