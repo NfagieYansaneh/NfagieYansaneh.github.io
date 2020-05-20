@@ -1,4 +1,19 @@
 <html>
+    <script> 
+        
+    function readSetID(filename, id){
+        var file = new XMLHttpRequest();
+        
+        file.open('GET', filename);
+        file.onload = function() {
+            document.getElementById(id).innerHTML = file.responseText;
+        }
+    
+        file.send();
+    }
+        
+    </script> <!-- Reads from file and re writes innerHTML -->
+    
     <head>
     <link href="global-stylesheet.css" type="text/css" rel="stylesheet">
     <link href="affordable-energy-stylesheet.css" type="text/css" rel="stylesheet">
@@ -32,7 +47,9 @@
             
             <div class="wrapper">
                 <div class="segment">
-                    <p style="flex-grow:1;background-color:goldenrod;margin:0px">Segment 1 txt</p>
+                    <p style="flex-grow:1;background-color:goldenrod;margin:0px" id="txtBox0"></p>
+                    
+                    <script>readSetID("affordable-energy0.txt", "txtBox0");</script>
                 </div>
                 
                 <div style="flex-grow:1"></div>
@@ -41,7 +58,9 @@
                     <img id="imgLink" src="MEDIA/wrecking-ball-screenshot-004.jpg">
                     <img id="adLink" src="MEDIA/ImageForNews_26806_1575299634378640.jpg">
                     
-                    <p style="flex-grow:1;background-color:goldenrod;margin:0px">Segment 2 txt</p>
+                    <p style="flex-grow:1;background-color:goldenrod;margin:0px" id="txtBox1"></p>
+                    
+                    <script>readSetID("affordable-energy1.txt", "txtBox1");</script>
                 </div>
             </div>
         </div>

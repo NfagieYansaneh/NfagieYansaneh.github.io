@@ -1,4 +1,19 @@
 <html>
+    <script> 
+        
+    function readSetID(filename, id){
+        var file = new XMLHttpRequest();
+        
+        file.open('GET', filename);
+        file.onload = function() {
+            document.getElementById(id).innerHTML = file.responseText;
+        }
+    
+        file.send();
+    }
+        
+    </script> <!-- Reads from file and re writes innerHTML -->
+    
     <head>
     <link href="global-stylesheet.css" type="text/css" rel="stylesheet">
     <link href="how-this-affects-you-stylesheet.css" type="text/css" rel="stylesheet">
@@ -32,15 +47,12 @@
             <img src="MEDIA/croppedhouse.jpg" width="100%" height="63.3%" style="margin-bottom:18px;">
             
             <div class="wrapper">
-                <div class="segment">
-                    Segment 1 txt
-                </div>
-                
+                <div class="segment" id="txtBox0"></div>
+                <script>readSetID("how-this-affects-you0.txt", "txtBox0");</script>
                 <div style="flex-grow:1;"></div>
                 
-                <div class="segment">
-                    Segment 2 txt
-                </div>
+                <div class="segment" id="txtBox1"></div>
+                <script>readSetID("how-this-affects-you1.txt", "txtBox1");</script>
             </div>
         </div>
     </body>
