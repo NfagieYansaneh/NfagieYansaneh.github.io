@@ -1,1 +1,24 @@
-Read from clean-energy0.txt
+Greater than 40% of our popluation (3 billion) rely on polluting and unhealthy fuels for cooking <a href="sixth.html">[3]</a>. These fuels are described as dirty energy, however, what is dirty energy? 
+
+<h1 align="center">Dirty Energy</h1>
+Dirty energy is the usuage or production of energy that either presents harm to our enviromnet or our person. Non-renewable resources &#8212;
+ a natural resource in which we cannot readily replace by natural means &#8212; such as fossil fuels &#8212; a natural fuel such as coal or gas, formed by decomposed plants and other organisms buried beneath layers of sediemnt and rock in the geological past &#8212; are typically the center of attention when it comes to a discussion of dirty energy. 
+
+<br><br>Fossil fuels, such as petroleum, oil, and coal, are combusted in order to provide energy. However, harmful byproducts such as <b>carbon-monoxide</b> and <b>carbon-dioxide</b> arise through the consumption of fossil fuels.<br><br>
+
+Carbon-monoxide can contribute to carbon monoxide poision which is caused by inhaling combustion fumes. "When too much carbon monoxide is in the air you're breathing, your body replaces the oxygen in your red blood cells with carbon monoxide. This prevents oxygen from reaching your tissues and organs." - (https://www.mayoclinic.org/diseases-conditions/carbon-monoxide/symptoms-causes/syc-20370642). Depending on how long are you are exposed to carbon-monoxide, and how much carbon-monoxide you are exposed to. Compilcations can involve <font color="red">ALL OF THIS KNOWLEDGE IS SECONDARY DATA</font><br><br>
+	&Tab;&bullet; Permanent brain damage<br>
+	&#09;&bullet; Damage to your heart, possibly leading to life-threatening cardiac complications<br>
+	&#09;&bullet; Fetal death or miscarriage<br>
+	&#09;&bullet; Death<br><br>
+Risk factors include<br><br>
+	&bullet;Unborn babies in which fetal blood cells, that take up carbon monoxide more readily than adult blood cells do, are more susecptible to harm from carbon monoxide poisoning<br>
+	&bullet;Young children, who take breaths more frequently than adults, can lead to them being more susecptible to carbon monoxide poisoning<br>
+	&bullet; People who have chronic heart disease or have a known history of anemia/breathing problems are more likely to get sick from exposure to carbon monoxide<br><br>
+
+Carbon-dioxide, though being far less dangerous as supposed to carbon-monoxide &#8212; the silent killer [?]. Gases such as carbon dioxide are able to absorb infarered radiation and contribute to the greenhouse effect &#8212; A process in which radiation, provided by the sun, from a planet's atmosphere warms the planet's surface by essentially 'trapping the warm of the sun' &#8212; because of this, carbon dioxide is notoriously known as a greenhouse gas.<br><br>
+
+Out of the many concerns of dirty energy, the greenhouse effect that carbon-dioxide contributes to is one of the most important factors.<br>
+<h1 align="center">Dirty energy and effecting the bigger picture</h1>
+The biggest concern of the greenhouse effect lies in how it relates to global warming &#8212; a gradual increase in the overall temperature of a planet's atmosphere &#8212; Stated by <font color="red">NAME HERE</font> "The average global temperature has increased by about 1.4 degrees Fahrenheit (0.8 degrees Celsius) over the past 100 years, according to the National Oceanic and Atmospheric Administration (NOAA)"[?] &#8212; and that, "Despite political controversy about climate change, a major report released Sept. 27, 2013," &#8212; "Scientists are more certain than ever of the link between human activites and global warming." &#8212; "Global warming is real and has been caused by human action."[?]<br><br>
+
