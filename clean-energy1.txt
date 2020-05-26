@@ -1,1 +1,5 @@
+<div style='font-family:"Segoe UI";src:local("Segoe UI");'>
+<div align="center">As of 2015, more than 20% of power was generated through renewable sources, yet, why is this of any importance? Non-renewable sources are cheaper [?], yet, why is there a commotion about a push for renewable sources &#8212; for renewable energy &#8212; for clean energy?
 <h1 align="center">Clean Energy</h1>
+<div align="justfiy">Clean energy, typically or analogous to renewable energy, </div>
+</div>
