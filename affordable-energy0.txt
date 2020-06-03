@@ -1,1 +1,6 @@
-Read from affordable-energy0.txt
+<div style='font-family:"Segoe UI";src:local("Segoe UI");' align="justify">
+"The U.S. has produced more than 1 billion tons of coal annually for each of the last 15 years" &#8212; "Coal is essential to the U.S. economy, providing affordable electricity to households, businesses, manufacturing facilities, transportation and communications systems" etc. [?] However, with the progress of technological advancments toward renewable and clean energy, costs for renewable energy are now in a fierce competition with dirty energy such as fossil fuels.
+
+<h1 align="center"> Clearn energy affordability </h1>
+
+</div>
