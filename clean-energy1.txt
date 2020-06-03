@@ -17,4 +17,17 @@
 </div>
 </div>
 <h1 align="center">Clean energy v. Dirty energy</h1>
-<div align="justify">Because of the methods and processes involving the development and consumption of clean energy, this form of energy does not bare the overhelming consequences of dirty energy, or the greenhouse gases produced as a result, nor large-scale, 'bigger-picture' situations such as global warming. Another important advantage of clean energy is in how it does not present pollution &#8212; the presence in or introduction into the environment of a substance which has harmful or poisonous effects &#8212; so much so that the Energy Democracy Initiative was able to model the benefits of health as a portion of electricity prices </div>
+<div align="justify">Because of the methods and processes involving the development and consumption of clean energy, this form of energy does not bare the overhelming consequences of dirty energy, or the greenhouse gases produced as a result, nor large-scale, 'bigger-picture' situations such as global warming. Another important advantage of clean energy is in how it does not present pollution &#8212; the presence in or introduction into the environment of a substance which has harmful or poisonous effects &#8212; so much so that in July 2019, the U.S. Environmental Protection Agency (EPA) released their "Public Health Benefits per kWh of Energy Efficiency and Renewable Energy in the United States" report as a way to "help state and local government policymakers and other stakeholders estimate the monetized public health benefits of investments in  energy efficiency and renewable energy" [?]. The EPA were able to develop a "benefits per kilowatt-hour" (BPK), which are reported in cents per kilowatt hour. Stated by the Institute for Local Self-Reliance, EPA developed these final figures by:<br><br>
+
+<div style="margin-left:16px" align="justify">1. Every kilowatt of renewable energy generated displaces a kilowatt of energy from coal or gas that would have been generated at that time</div><br>
+
+<div style="margin-left:16px" align="justify">2. Each displaced kilowatt hour of coal or gas will no longer produce x emissions.</div><br>
+
+<div style="margin-left:16px" align="justify">3. Less emissions will release fewer toxins, improving air quality by y.</div><br>
+
+<div style="margin-left:16px" align="justify">4. Improved air will translate into z fewer hospital visits and deaths.</div><br>
+
+<div style="margin-left:16px" align="justify">5. The EPA divided the value of those reduced hospital visits and deaths by the kilowatt hours of renewable energy generated.</div><br>
+
+<font color="red"> INSERT IMAGE HERE </font><br><br>
+"The report factors in the health risks caused by nitrogen oxides, sulfur dioxide, and PM2.5. These substances contribute to heart attacks, asthma, and respiratory diseases." [?] However, the report was not conducted state by sate, but instead by ten geographic regions over the area of the 48 contiguous states. The health benefits vary with region for many reasons. Nevertheless, the Institute for Local Self-Reliance was able to model the low estimate scenario &#8212; "health benefits of clean energy make up anywhere between 3% and 29% of the cost of electricity for residential customers" [?] &#8212; and the high estimate scenarion &#8212; 
