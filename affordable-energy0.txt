@@ -3,4 +3,4 @@
 
 <h1 align="center"> Clearn energy affordability </h1>
 
-</div>
+"In 2016, a global renewable energy capacity grew by a record amount while its cost fell considerably." [?], largely do to cheaper costs for solar and wind energy [?]. With solar photovoltaics (PV) &#8212; a means of harnassing sunlight (solar radiation) into direct current electricity by using semiconductors &#8212; costs droping by 82% over 2010-2019 [?]. Stated by the International Renewable Energy Agency, "By 2021, up to 1200 gigawatts of exisiting coal-fired capacity would cost more to operate than new utility-scale solar PV would cost to install"[?]  and that if we were to replace the costliest 500 gigwatts of coal capacity wih solar and wind, we would cut annual system costs to up to USD 23 billion per year and ultimately yield around USD 940 billion, or about 1% of the global GDP [?].</div>
