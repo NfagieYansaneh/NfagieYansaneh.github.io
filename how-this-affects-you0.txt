@@ -1,1 +1,3 @@
-Read from how-this-affects-you0.txt
+<div style='font-family:"Segoe UI";src:local("Segoe UI");'>
+Talk of clean energy, renewnable energy, and affordable energy all encorach on questions about how this affects you &#8212; the individual &#8212; the consumer and civilian. It's a very simple yet important question, How does this affect you?
+</div>
