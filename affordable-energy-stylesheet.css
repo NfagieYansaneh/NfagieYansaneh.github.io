@@ -31,18 +31,18 @@
 }
 
 #adLink {
-    background-image: url("MEDIA/solar-array-on-red-tile-roof-1002x613.jpg");
+    background-image: url("MEDIA/ImageForNews_26806_1575299634378640.jpg");
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 60%;
     background-repeat: no-repeat;
-    padding-bottom: 26.3%;
+    padding-bottom: 8.9%;
+    margin-bottom: 16px;
     width: 100%;
-    margin-bottom: 17px;
     position: relative;
-    box-shadow: 4px 4px #dcb4f4;
+    box-shadow: 4px 4px #90ee90;
     transition: box-shadow 0.2s ease-in-out, left 0.2s ease-in-out, top 0.2s ease-in-out;
-    left: 0;
     top: 0;
+    left: 0;
 }
 
 #adLink:hover {
