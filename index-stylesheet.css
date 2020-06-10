@@ -5,9 +5,10 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    background-color: green;
+    background-color: lavender;
     margin-bottom: 23px;
     overflow: hidden;
+    border-bottom: 2px #ff5151 solid;
 }
 
 .galleryImgFlex {
@@ -37,7 +38,10 @@
 
 #galleryMiniNav {
     flex-grow: 1;
-    background-color: aqua;
+    background-color: white;
+    border-color: #ff5151;
+    border-width: 2px;
+    border-style: solid;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -49,19 +53,13 @@
     border: 0px;
     transition: transform .2s;
     pointer-events: all;
-    
-    width: 20%;
-    height: 80%;
-    background-size: 150% 150%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 
 .galleryMiniNavItemsFormat {
 }
 
 .galleryMiniNavItems:hover {
-    transform: scale(1.1);
+    transform: scale(1.35);
 }
 
 #galleryImg {
@@ -93,19 +91,28 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    box-shadow: 4px 4px #dcb4f4;
+    transition: box-shadow 0.2s ease-in-out, left 0.2s ease-in-out, top 0.2s ease-in-out;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+
+#descImg:hover {
+    box-shadow: 7px 7px #dcb4f4;
+    left: -3;
+    top: -3;
 }
 
 .descBox {
     width: 100%;
     height: 24.7%;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .descText {
-    overflow: hidden;
     height: 100%;
-    background-color: rebeccapurple;
-
+    
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -113,13 +120,28 @@
 
 #txtBox0 {
     height: 71.2%;
-    background-color: crimson;
+    background-color: #9818d6;
     margin-bottom: 15px;
+    box-shadow: 3px 3px #dcb4f4;
+    color: white;
+    padding: 5px;
 }
 
 #learnMoreButton {
     flex-grow: 1;
     width: 100%;
+    background-color: #9c1cd3;
+    color: white;
+}
+
+#halftoneBackground {
+    background-repeat: repeat-x;
+    background-image: url("MEDIA/circle-black-halftone-vector-background_1017-14239.jpg");
+    background-position: 0% 40%;
+    background-size: contain;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
 }
 
 /* @media thing */

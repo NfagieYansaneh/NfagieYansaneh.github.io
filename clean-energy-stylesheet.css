@@ -5,9 +5,10 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    background-color: green;
+    background-color: lavender;
     margin-bottom: 28px;
     overflow: hidden;
+    border-bottom: 2px #ff5151 solid;
 }
 
 .galleryImgFlex {
@@ -36,12 +37,13 @@
 
 #galleryMiniNav {
     flex-grow: 1;
-    background-color: aqua;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 25%;
+    border: 2px #ff5151 solid;
 }
 
 .galleryMiniNavItems {
@@ -51,7 +53,16 @@
 }
 
 .galleryMiniNavItems:hover {
-    transform: scale(1.1);
+    transform: scale(1.35);
+}
+
+#galleryImg {
+    width: 100%;
+    height: 100%;
+    background-image: url("MEDIA/gettyimages-625668002.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 73%;
 }
 
 
@@ -72,8 +83,11 @@
 }
 
 .segment {
-    width: 49.2%;
-    background-color: burlywood;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 47.5%; /* changed from 49.2% */
+    background-color: #ff5151;
 }
 
 #txtBox0 {

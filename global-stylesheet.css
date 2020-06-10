@@ -4,12 +4,26 @@ body {
     margin-top: 15px;
     margin-left: 0px;
     margin-right: 0px;
+    
+    font-family:"Segoe UI";
+    background-color: white;
+    margin-bottom: 0;
 }
 
 .globalMargin {
     width: 95.8%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#halftoneBackground {
+    background-repeat: repeat-x;
+    background-image: url("MEDIA/circle-black-halftone-vector-background_1017-14239.jpg"); /*this is the default background color*/
+    background-position: 0% 40%;
+    background-size: contain;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
 }
 
 
@@ -25,7 +39,7 @@ body {
 /* navigation bar */
 
 .navigation {
-    height: 53px;
+    height: 63px; /* changed from 53px to 63px */
     width: 100%;
     background-color: aqua;
     overflow: hidden;
@@ -37,8 +51,7 @@ ul {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: aqua;
-    border-bottom: 7px solid;
+    background-color: #ffa41b;
 }
 
 .listShift {
@@ -58,12 +71,24 @@ li a {
     padding-bottom: 28px;
     color: black;
     display: block;
-    transition: background-color 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
     text-decoration: none;
+    font-size: 18px;
 }
 
 li a:hover {
-    background-color: darkorchid;
+    background-color: #9818d6;
+    color: #ffa41b;
+}
+
+#activePage {
+    background-color: #9818d6;
+    font-weight: bold;
+}
+
+.contactPage {
+    float: right;
+    padding-right: 10px;
 }
 
 #logoImg {
@@ -71,4 +96,10 @@ li a:hover {
     left: 54px;
     width: 10.9%;
     height: 15.6%;
+    border: 4px #ffa41b solid;
+    background-image: url(MEDIA/logo.png);
+    background-position: 50% 50%;
+    background-size: 150% 150%;
+    background-repeat: repeat;
+    background-color: #404147;
 }

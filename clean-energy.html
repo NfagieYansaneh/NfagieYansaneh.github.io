@@ -6,22 +6,22 @@
         function updateImg() {
             switch(index){
                 case 0:
-                    document.getElementById("galleryImg").src = "MEDIA/cropped%20picture.png";
-                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 0 - Power Plants";
+                    document.getElementById("galleryImg").style = "    background-image: url('MEDIA/gettyimages-625668002.jpg');background-position: 50% 73%;"
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 0 - Coal";
                     break;
+                    
                 case 1:
-                    document.getElementById("galleryImg").src = 
-                    "MEDIA/orion.jpg";
-                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 1 - Orion";
+                    document.getElementById("galleryImg").style = "background-image: url('MEDIA/turbines.jpg');background-position: 50% 50%;background-size: 100%;"
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 1 - Water well";
                     break;
+                    
                 case 2:
-                    document.getElementById("galleryImg").src =
-                    "MEDIA/boots.jpg";
-                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 2 - Boots";
+                    document.getElementById("galleryImg").style = "background-image: url('MEDIA/fossil-fuel-hero.jpg');background-position: 50% 80%; background-size:cover;"
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 2 - Water well";
                     break;
+                    
                 case 3:
-                    document.getElementById("galleryImg").src =
-                    "MEDIA/Hartwell.jpg";
+                    document.getElementById("galleryImg").style = "background-image: url('MEDIA/greenAlgae.jpg');background-position: 50% 60%;"
                     document.getElementById("galleryImgMiniDescTxt").innerHTML="Image 3 - Water well";
                     break;
             }
@@ -33,7 +33,7 @@
             }
             
             if(x<0 && index==0){
-                index = 3;
+                index = (numOfPhotos-1);
             } else if (x>0 && index==(numOfPhotos-1)){
                 index = 0;
             } else {
@@ -72,18 +72,17 @@
         
         <!-- Navigation Bar !-->
         <div class="globalMargin">
-            <img id="logoImg" src="MEDIA/d.jpg" alt="logo">
+            <div id="logoImg"></div>
             <div class="header">
                 .
                 <div class="navigation">
                 <ul>
                     <div class="listShift">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="clean-energy.html">Clean energy</a></li>
+                    <li><a id="activePage" href="clean-energy.html">Clean energy</a></li>
                     <li><a href="affordable-energy.html">Affordable energy</a></li>
                     <li><a href="how-this-affects-you.html">How this affects you</a></li>
-                    <li><a href="sixth.html">Sixth Placeholder</a></li>
-                    <li><a href="contacts.html">Contact us</a></li>
+                    <li class="contactPage"><a href="references.html">References</a></li>
                     </div>
                 </ul>
                 </div>
@@ -107,25 +106,31 @@
                 <h3 id="galleryImgMiniDescTxt">Image 0 - Power Plants</h3>
                 
                 <div id="galleryMiniNav">
-                    <img class="galleryMiniNavItems" src="MEDIA/cropped%20picture.png" width="20%" height="80%" onclick="set(0)" href="#">
-                    <img class="galleryMiniNavItems" src="MEDIA/orion.jpg" width="20%" height="80%" onclick="set(1)">
-                    <img class="galleryMiniNavItems" src="MEDIA/boots.jpg" width="20%" height="80%" onclick="set(2)">
-                    <img class="galleryMiniNavItems" src="MEDIA/Hartwell.jpg" width="20%" height="80%" onclick="set(3)">
+                    <img class="galleryMiniNavItems" src="MEDIA/gettyimages-625668002.jpg" width="20%" height="80%" onclick="set(0)">
+                    
+                    <img class="galleryMiniNavItems" src="MEDIA/turbines.jpg" width="20%" height="80%" onclick="set(1)">
+                    
+                    <img class="galleryMiniNavItems" src="MEDIA/fossil-fuel-hero.jpg" width="20%" height="80%" onclick="set(2)">
+                    
+                    <img class="galleryMiniNavItems" src="MEDIA/greenAlgae.jpg" width="20%" height="80%" onclick="set(3)">
                 </div>
             </div>
             
-            <img id="galleryImg" src="MEDIA/cropped%20picture.png" width=100% height=100%>
+            <div id="galleryImg"></div>
         </div>
         
         <div class="globalMargin">
             <div class="wrapper">
-                <div class="segment" id="txtBox0"></div>
+                <div class="segment" style="color:white" id="txtBox0"></div>
                 <script>readSetID("clean-energy0.txt", "txtBox0");</script>
                 <div style="flex-grow:1;"></div>
                 
-                <div class="segment" id="txtBox1"></div>
+                <div class="segment" style="background-color:#ffa41b" id="txtBox1"></div>
                 <script>readSetID("clean-energy1.txt", "txtBox1");</script>
             </div>
         </div>
+        
+        <!-- halftoneBackground !-->
+        <div id="halftoneBackground" style="background-image: url('MEDIA/red.png')"></div>
     </body>
 </html>
