@@ -32,6 +32,7 @@
 }
 
 #adLink {
+    flex-shrink: 0;
     background-image: url("MEDIA/ImageForNews_26806_1575299634378640.jpg");
     background-size: cover;
     background-position: 50% 60%;
