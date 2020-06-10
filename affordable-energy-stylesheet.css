@@ -31,7 +31,7 @@
     top: -3;
 }
 
-#adLink {
+#aLink {
     flex-shrink: 0;
     background-image: url("MEDIA/ImageForNews_26806_1575299634378640.jpg");
     background-size: cover;
@@ -48,7 +48,7 @@
     left: 0;
 }
 
-#adLink:hover {
+#aLink:hover {
     box-shadow: 7px 7px #90ee90;
     left: -3;
     top: -3;
