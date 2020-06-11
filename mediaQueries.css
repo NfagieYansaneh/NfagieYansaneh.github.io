@@ -152,21 +152,156 @@
 
 /* Tablet Landscape */
 @media screen and (max-width: 768px) {
+    /* navigation */
+    .navigation { height: 38px; }
     
+    .listShift { margin-left: 120px;}
+    li a {
+        padding-top: 13px; 
+        padding-bottom: 25px;
+        padding-right: 5px;
+        font-size: 15;
+    }
+    
+    #logoImg { 
+        left: 30;
+        top: 22;
+        width: 10.9%; 
+        height: 10.9%;}
+    .header { height: 15%; }
+    .contactPage { padding-right: 8px; }
+    
+    /* Index */
+    .descText { font-size: 10; }
+    .descBox { margin-bottom: 10px;}
+    #descImgText { font-size: 20; }
+    .galleryINDEX { height: 52.2%; }
+    .galleryINDEX #galleryImgMiniDescWrapper { height: 52.2%; }
+    .galleryINDEX #galleryImgMiniDescTxt { font-size: 15; }
+    .galleryINDEX #galleryMiniNav { width: 60%; }
+    
+    /* Clean Energy */
+    .galleryCE { height: 25%; }
+    .galleryCE #galleryImgMiniDescWrapper { height: 25%; }
+    .galleryCE #galleryImgMiniDescTxt { font-size: 13; }
+    .galleryCE #galleryMiniNav { width: 30%; }
+    .segmentCE { padding-right: 4; padding-left: 4; font-size: 12;}
+    
+    /* Affordable Energy */
+    .segmentAE { font-size: 12; }
+    
+    /* How This Affects You */
+    .segmentHTAY { padding-right: 3; padding-left: 3; font-size: 12; }
+    #aLinkTextHTAY { font-size: 15; }
+    #img0HTAY { height: 34%; }
+    
+    /* References */
+    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 15; }
+    #aLinkTextREF { font-size: 14; }
 }
 
-/* Laptop - 1024px Potrait */
-@media screen and (max-width: 570px) {
+/* resize because Navigation bar @ 720px */
+@media screen and (max-width: 730px) {
+    /* navigation */
+    .navigation { height: 38px; }
     
+    .listShift { margin-left: 120px;}
+    li a {
+        padding-top: 13px; 
+        padding-bottom: 25px;
+        padding-right: 5px;
+        font-size: 14;
+    }
+    
+    #logoImg { 
+        left: 30;
+        top: 22;
+        width: 10.9%; 
+        height: 10.9%;}
+    .header { height: 15%; }
+    .contactPage { padding-right: 8px; }
+    
+    /* Index */
+    .descText { font-size: 10; }
+    .descBox { margin-bottom: 10px;}
+    #descImgText { font-size: 20; }
+    .galleryINDEX { height: 52.2%; }
+    .galleryINDEX #galleryImgMiniDescWrapper { height: 52.2%; }
+    .galleryINDEX #galleryImgMiniDescTxt { font-size: 15; }
+    .galleryINDEX #galleryMiniNav { width: 60%; }
+    
+    /* Clean Energy */
+    .galleryCE { height: 25%; }
+    .galleryCE #galleryImgMiniDescWrapper { height: 25%; }
+    .galleryCE #galleryImgMiniDescTxt { font-size: 13; }
+    .galleryCE #galleryMiniNav { width: 30%; }
+    .segmentCE { padding-right: 4; padding-left: 4; font-size: 12;}
+    
+    /* Affordable Energy */
+    .segmentAE { font-size: 12; }
+    
+    /* How This Affects You */
+    .segmentHTAY { padding-right: 3; padding-left: 3; font-size: 12; }
+    #aLinkTextHTAY { font-size: 15; }
+    #img0HTAY { height: 34%; }
+    
+    /* References */
+    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 15; }
+    #aLinkTextREF { font-size: 14; }
+}
+
+/* resize because Navigation bar @ 650px */
+@media screen and (max-width: 670px) {
+    /* navigation */
+    .navigation { height: 38px; }
+    
+    .listShift { margin-left: 120px;}
+    li a {
+        padding-top: 13px; 
+        padding-bottom: 25px;
+        padding-right: 5px;
+        font-size: 10;
+    }
+    
+    #logoImg { 
+        left: 30;
+        top: 22;
+        width: 10.9%; 
+        height: 10.9%;}
+    .header { height: 15%; }
+    .contactPage { padding-right: 8px; }
+    
+    /* Index */
+    .descText { font-size: 9; }
+    .descBox { margin-bottom: 10px;}
+    #descImgText { font-size: 20; }
+    .galleryINDEX { height: 52.2%; }
+    .galleryINDEX #galleryImgMiniDescWrapper { height: 52.2%; }
+    .galleryINDEX #galleryImgMiniDescTxt { font-size: 15; }
+    .galleryINDEX #galleryMiniNav { width: 60%; }
+    
+    /* Clean Energy */
+    .galleryCE { height: 25%; }
+    .galleryCE #galleryImgMiniDescWrapper { height: 25%; }
+    .galleryCE #galleryImgMiniDescTxt { font-size: 13; }
+    .galleryCE #galleryMiniNav { width: 30%; }
+    .segmentCE { padding-right: 4; padding-left: 4; font-size: 12;}
+    
+    /* Affordable Energy */
+    .segmentAE { font-size: 12; }
+    
+    /* How This Affects You */
+    .segmentHTAY { padding-right: 3; padding-left: 3; font-size: 12; }
+    #aLinkTextHTAY { font-size: 15; }
+    #img0HTAY { height: 34%; }
+    
+    /* References */
+    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 15; }
+    #aLinkTextREF { font-size: 14; }
 }
 
 /* Tablet Potrait */
-@media screen and (max-width: 570px) {
-    
-}
-
-/* Mobile L Landscape */
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 1024px) {
     
 }
 
@@ -183,16 +318,16 @@
     .listShift { margin-left: 80px;}
     li a {
         left;
-        padding-top: 11px; 
-        padding-bottom: 14px;
-        font-size: 10;
+        padding-top: 15px; 
+        padding-bottom: 34px;
+        font-size: 7.5;
     }
-    #logoImg { left: 20; width: 10.9%; height: 15.6%;}
+    #logoImg { left: 20; width: 10.9%; height: 10.9%;}
     .header { height: 19.8%; }
-    .contactPage { padding-right: 4px; }
+    .contactPage { padding-right: 8px; }
     
     /* Index */
-    .descText { font-size: 9; }
+    .descText { font-size: 8.5; }
     .descBox { margin-bottom: 10px;}
     .galleryINDEX { height: 42.2%; }
     .galleryINDEX #galleryImgMiniDescWrapper { height: 42.2%; }
@@ -217,7 +352,7 @@
 /* Mobile L Potrait */
 @media screen and (max-width: 425px) {
         /* navigation */
-    .navigation { height: 38px; }
+    .navigation { height: 25px; }
     
     .listShift { margin-left: 50px;}
     li a {
@@ -229,14 +364,14 @@
     
     #logoImg { 
         left: 5;
-        top: 30;
-        width: 11.9%; 
+        top: 25;
+        width: 10.9%; 
         height: 6.6%;}
     .header { height: 12%; }
     .contactPage { padding-right: 4px; }
     
     /* Index */
-    .descText { font-size: 10; }
+    .descText { font-size: 9.5; }
     .descBox { margin-bottom: 10px;}
     #descImgText { font-size: 14; }
     .galleryINDEX { height: 42.2%; }
@@ -269,26 +404,26 @@
 /* Mobile M Potrait */
 @media screen and (max-width: 375px) {
         /* navigation */
-    .navigation { height: 38px; }
+    .navigation { height: 24px; }
     
     .listShift { margin-left: 50px;}
     li a {
-        padding-top: 15px; 
+        padding-top: 10px; 
         padding-bottom: 30px;
         padding-right: 5px;
         font-size: 5.5;
     }
     
     #logoImg { 
-        left: 5;
-        top: 30;
-        width: 11.9%; 
+        left: 15;
+        top: 25;
+        width: 8.6%; 
         height: 6.6%;}
     .header { height: 12%; }
     .contactPage { padding-right: 4px; }
     
     /* Index */
-    .descText { font-size: 9; }
+    .descText { font-size: 8; }
     .descBox { margin-bottom: 10px;}
     #descImgText { font-size: 14; }
     .galleryINDEX { height: 42.2%; }
@@ -321,26 +456,26 @@
 /* Mobile S Potrait */
 @media screen and (max-width: 320px) {
     /* navigation */
-    .navigation { height: 38px; }
+    .navigation { height: 28px; }
     
     .listShift { margin-left: 50px;}
     li a {
-        padding-top: 15px; 
+        padding-top: 12px; 
         padding-bottom: 30px;
-        padding-right: 5px;
+        padding-right: 2px;
         font-size: 5.5;
     }
     
     #logoImg { 
         left: 5;
-        top: 30;
+        top: 28;
         width: 11.9%; 
         height: 6.6%;}
     .header { height: 12%; }
     .contactPage { padding-right: 4px; }
     
     /* Index */
-    .descText { font-size: 9; }
+    .descText { font-size: 8; }
     .descBox { margin-bottom: 10px;}
     #descImgText { font-size: 14; }
     .galleryINDEX { height: 42.2%; }
