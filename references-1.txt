@@ -1,4 +1,4 @@
-[11] &#8212; https://www.edfenergy.com/for-home/energywise/renewable-energy-sources<br>
+<div style="word-wrap:break-word;">
 [12] &#8212; https://ilsr.org/could-the-health-benefits-of-renewable-energy-cover-your-electric-bill/<br>
 [13] &#8212; https://www.epa.gov/sites/production/files/2019-07/documents/bpk-report-final-508.pdf<br>
 [14] &#8212; http://www.rmcmi.org/education/coal-facts#.XuCtdue-nIU<br>
@@ -8,3 +8,4 @@
 [18] &#8212; https://www.gfdl.noaa.gov/global-warming-and-hurricanes/<br>
 [19] &#8212; https://news.energysage.com/much-solar-panels-save/<br>
 [20] &#8212; https://contact.co.nz/residential/alternative-energy#Getting-started-with-distributed-generation-or-alternative-energy<br>
+</div>

@@ -14,9 +14,9 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    padding-bottom: 26.3%;
+    padding-top: 12.15%;
+    padding-bottom: 12.15%;
     width: 100%;
-    height: 26.3%;
     margin-bottom: 17px;
     position: relative;
     box-shadow: 4px 4px #dcb4f4;
@@ -31,15 +31,21 @@
     top: -3;
 }
 
+#imgLinkTxt {
+    text-align: center;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    color: white;
+    font-size: 20;
+}
+
 #aLink {
-    flex-shrink: 0;
     background-image: url("MEDIA/ImageForNews_26806_1575299634378640.jpg");
     background-size: cover;
     background-position: 50% 60%;
     background-repeat: no-repeat;
-    padding-bottom: 8.9%;
+    padding-top: 3.45%;
+    padding-bottom: 3.45%;
     width: 100%;
-    height: 8.9%;
     margin-bottom: 16px;
     position: relative;
     box-shadow: 4px 4px #90ee90;

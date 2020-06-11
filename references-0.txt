@@ -1,3 +1,4 @@
+<div style="word-wrap:break-word;">
 [1] &#8212; https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html<br>
 [2] &#8212; https://www.mayoclinic.org/diseases-conditions/carbon-monoxide/symptoms-causes/syc-20370642<br>
 [3] &#8212; https://www.indsci.com/blog-search/carbon-monoxide-vs.-carbon-dioxide-lets-compare/<br>
@@ -8,4 +9,6 @@
 [8] &#8212; https://www.rd.com/advice/travel/islands-will-disappear-80-years/<br>
 [9] &#8212; https://www.lejournalinternational.fr/Global-Warming-the-first-Pacific-Islands-submerged_a2698.html<br>
 [10] &#8212; https://www.biologicaldiversity.org/campaigns/endangered_oceans/pdfs/Infographic_OA.pdf<br>
+[11] &#8212; https://www.edfenergy.com/for-home/energywise/renewable-energy-sources<br>
+</div>
 
