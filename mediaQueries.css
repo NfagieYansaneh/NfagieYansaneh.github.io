@@ -142,16 +142,60 @@
 }
 
 /* Mobile M Potrait */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     
 }
 
-/* Mobile M Landscape */
-@media screen and (min-width: 570px) {
+/* Mobile S Landscape */
+@media screen and (max-width: 570px) {
     
 }
 
-/* Mobile M Potrait */
-@media screen and (min-width: 320px) {
+/* Mobile S Potrait */
+@media screen and (max-width: 320px) {
+    /* navigation */
+    .navigation { height: 38px; }
     
+    .listShift { margin-left: 50px;}
+    li a {
+        padding-top: 15px; 
+        padding-bottom: 30px;
+        padding-right: 5px;
+        font-size: 5.5;
+    }
+    
+    #logoImg { 
+        left: 5;
+        top: 30;
+        width: 11.9%; 
+        height: 6.6%;}
+    .header { height: 12%; }
+    .contactPage { padding-right: 4px; }
+    
+    /* Index */
+    .descText { font-size: 7; }
+    .descBox { margin-bottom: 10px;}
+    #descImgText { font-size: 14; }
+    .galleryINDEX { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescWrapper { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescTxt { font-size: 13; }
+    .galleryINDEX #galleryMiniNav { width: 60%; }
+    
+    /* Clean Energy */
+    .galleryCE { height: 25%; }
+    .galleryCE #galleryImgMiniDescWrapper { height: 25%; }
+    .galleryCE #galleryImgMiniDescTxt { font-size: 8.4; }
+    .galleryCE #galleryMiniNav { width: 30%; }
+    .segmentCE { padding-right: 2; padding-left: 2; font-size: 10;}
+    
+    /* Affordable Energy */
+    .segmentAE { font-size: 8.5; }
+    
+    /* How This Affects You */
+    .segmentHTAY { padding-right: 3; padding-left: 3; font-size: 12; }
+    #aLinkTextHTAY { font-size: 13; }
+    
+    /* References */
+    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 7; }
+    #aLinkTextREF { font-size: 14; }
 }
