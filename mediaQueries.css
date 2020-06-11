@@ -1,0 +1,22 @@
+/* Media Queries */
+
+/* Iphone X Landscape */
+@media screen and (min-width: 812px) and (min-height: 375px) {
+    .navigation { height: 38px; }
+    li a { padding-top: 7px; padding-bottom: 14px; }
+    .descText { font-size: 12; }
+    .segmentReferences { font-size: 10; }
+    #logoImg { width: 10.9%; height: 15.6%;}
+    .header { height: 19.8%; }
+}
+
+/* Iphone X Potrait */
+@media screen and (min-width: 375px) and (min-height: 812px) {
+    .navigation { height: 58px; }
+    li a { padding-top: 23px; padding-bottom: 14px; }
+    .descText { font-size: 12; }
+    .segmentReferences { font-size: 10; }
+    #logoImg { width: 13.9%; height: 5%;}
+    .header { height: 7.8%; }
+    #halftoneBackground { }
+}
