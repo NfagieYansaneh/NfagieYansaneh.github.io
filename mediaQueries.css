@@ -86,25 +86,123 @@
     #aLinkTextREF { font-size: 14; }
 }
 
-/* 4k Landscape */
-@media screen and (max-width: 2560px) {
+/* resisze because of navigation bar @ 890px */
+@media screen and (min-width: 900px) and  (min-height: 900px) {
+        /* navigation */
+    .navigation { height: 58px; }
     
+    .listShift { margin-left: 120px;}
+    li a {
+        left;
+        padding-top: 20px; 
+        padding-bottom: 30px;
+        font-size: 15;
+    }
+    #logoImg { left: 30; width: 10.9%; height: 10.9%;}
+    .header { height: 15.8%; }
+    .contactPage { padding-right: 4px; }
+    
+    /* Index */
+    .descText { font-size: 10; }
+    .descBox { margin-bottom: 10px;}
+    .galleryINDEX { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescWrapper { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescTxt { font-size: 15; }
+    
+    /* Clean Energy */
+    .galleryCE #galleryImgMiniDescTxt { font-size: 15; }
+    .segmentCE { padding-right: 4; padding-left: 4; font-size: 14;}
+    
+    /* Affordable Energy */
+    .segmentAE { font-size: 14; }
+    
+    /* How This Affects You */
+    .segmentHTAY { padding-right: 4; padding-left: 4; font-size: 14; }
+    #aLinkTextHTAY { font-size: 15; }
+    
+    /* References */
+    .segmentReferences { padding-left: 5; padding-right: 5; font-size: 16.5; }
+    #aLinkTextREF { font-size: 14; }
 }
 
-/* 4k Potrait */
-@media screen and (max-width: 1425px) {
+/* resisze because of navigation bar @ 890px */
+@media screen and (min-width: 900px) and  (max-height: 900px) {
+        /* navigation */
+    .navigation { height: 58px; }
     
+    .listShift { margin-left: 120px;}
+    li a {
+        left;
+        padding-top: 20px; 
+        padding-bottom: 30px;
+        font-size: 15;
+    }
+    #logoImg { left: 30; top: 23; width: 9.9%; height: 9.9%;}
+    .header { height: 19.8%; }
+    .contactPage { padding-right: 4px; }
+    
+    /* Index */
+    .descText { font-size: 10; }
+    .descBox { margin-bottom: 10px;}
+    .galleryINDEX { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescWrapper { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescTxt { font-size: 15; }
+    
+    /* Clean Energy */
+    .galleryCE #galleryImgMiniDescTxt { font-size: 15; }
+    .segmentCE { padding-right: 4; padding-left: 4; font-size: 14;}
+    
+    /* Affordable Energy */
+    .segmentAE { font-size: 14; }
+    
+    /* How This Affects You */
+    .segmentHTAY { padding-right: 4; padding-left: 4; font-size: 14; }
+    #aLinkTextHTAY { font-size: 15; }
+    
+    /* References */
+    .segmentReferences { padding-left: 5; padding-right: 5; font-size: 16.5; }
+    #aLinkTextREF { font-size: 14; }
 }
 
-/* Laptop L - 1440px Landscape */
-@media screen and (max-width: 1440px) {
+/* resisze because of navigation bar @ 890px */
+@media screen and (min-width: 900px) and  (max-height: 700px) {
+        /* navigation */
+    .navigation { height: 58px; }
     
+    .listShift { margin-left: 120px;}
+    li a {
+        left;
+        padding-top: 20px; 
+        padding-bottom: 30px;
+        font-size: 15;
+    }
+    #logoImg { left: 10; top: 30; width: 11.9%; height: 11.9%;}
+    .header { height: 19.8%; }
+    .contactPage { padding-right: 4px; }
+    
+    /* Index */
+    .descText { font-size: 10; }
+    .descBox { margin-bottom: 10px;}
+    .galleryINDEX { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescWrapper { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescTxt { font-size: 15; }
+    
+    /* Clean Energy */
+    .galleryCE #galleryImgMiniDescTxt { font-size: 15; }
+    .segmentCE { padding-right: 4; padding-left: 4; font-size: 14;}
+    
+    /* Affordable Energy */
+    .segmentAE { font-size: 14; }
+    
+    /* How This Affects You */
+    .segmentHTAY { padding-right: 4; padding-left: 4; font-size: 14; }
+    #aLinkTextHTAY { font-size: 15; }
+    
+    /* References */
+    .segmentReferences { padding-left: 5; padding-right: 5; font-size: 16.5; }
+    #aLinkTextREF { font-size: 14; }
 }
 
-/* Laptop - 1024px Landscape */
-@media screen and (max-width: 1024px) {
-    
-}
 
 /* resisze because of navigation bar @ 890px */
 @media screen and (max-width: 900px) {
