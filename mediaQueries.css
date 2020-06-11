@@ -7,6 +7,7 @@
     
     .listShift { margin-left: 150px;}
     li a {
+        left;
         padding-top: 7px; 
         padding-bottom: 14px;
         font-size: 13;
@@ -39,12 +40,50 @@
 
 /* Iphone X Potrait */
 @media screen and (max-width: 375px) {
-    .navigation { height: 58px; }
-    li a { padding-top: 23px; padding-bottom: 14px; }
-    .descText { font-size: 12; }
-    .segmentReferences { font-size: 10; }
-    #logoImg { width: 13.9%; height: 5%;}
-    .header { height: 7.8%; }
+    /* navigation */
+    .navigation { height: 38px; }
+    
+    .listShift { margin-left: 50px;}
+    li a {
+        padding-top: 15px; 
+        padding-bottom: 30px;
+        padding-right: 5px;
+        font-size: 7;
+    }
+    
+    #logoImg { 
+        left: 5;
+        top: 26;
+        width: 10.9%; 
+        height: 5.6%;}
+    .header { height: 9%; }
+    
+    /* Index */
+    .descText { font-size: 9.9; }
+    .descBox { margin-bottom: 10px;}
+    #descImgText { font-size: 16; }
+    .galleryINDEX { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescWrapper { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescTxt { font-size: 15; }
+    .galleryINDEX #galleryMiniNav { width: 60%; }
+    
+    /* Clean Energy */
+    .galleryCE { height: 25%; }
+    .galleryCE #galleryImgMiniDescWrapper { height: 25%; }
+    .galleryCE #galleryImgMiniDescTxt { font-size: 11; }
+    .galleryCE #galleryMiniNav { width: 30%; }
+    .segmentCE { padding-right: 2; padding-left: 2; font-size: 12;}
+    
+    /* Affordable Energy */
+    .segmentAE { font-size: 12; }
+    
+    /* How This Affects You */
+    .segmentHTAY { padding-right: 3; padding-left: 3; font-size: 12; }
+    #aLinkTextHTAY { font-size: 15; }
+    
+    /* References */
+    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 9; }
+    #aLinkTextREF { font-size: 14; }
 }
 
 /* 4k Landscape */
