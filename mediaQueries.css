@@ -1,22 +1,118 @@
 /* Media Queries */
 
 /* Iphone X Landscape */
-@media screen and (min-width: 812px) and (min-height: 375px) {
+@media screen and (max-width: 812px) {
+    /* navigation */
     .navigation { height: 38px; }
-    li a { padding-top: 7px; padding-bottom: 14px; }
-    .descText { font-size: 12; }
-    .segmentReferences { font-size: 10; }
+    
+    .listShift { margin-left: 150px;}
+    li a {
+        padding-top: 7px; 
+        padding-bottom: 14px;
+        font-size: 13;
+    }
     #logoImg { width: 10.9%; height: 15.6%;}
     .header { height: 19.8%; }
+    
+    /* Index */
+    .descText { font-size: 9; }
+    .descBox { margin-bottom: 10px;}
+    .galleryINDEX { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescWrapper { height: 42.2%; }
+    .galleryINDEX #galleryImgMiniDescTxt { font-size: 15; }
+    
+    /* Clean Energy */
+    .galleryCE #galleryImgMiniDescTxt { font-size: 15; }
+    .segmentCE { padding-right: 4; padding-left: 4; font-size: 13;}
+    
+    /* Affordable Energy */
+    .segmentAE { font-size: 13; }
+    
+    /* How This Affects You */
+    .segmentHTAY { padding-right: 6; padding-left: 6; font-size: 13; }
+    #aLinkTextHTAY { font-size: 15; }
+    
+    /* References */
+    .segmentReferences { font-size: 8.5; }
+    #aLinkTextREF { font-size: 14; }
 }
 
 /* Iphone X Potrait */
-@media screen and (min-width: 375px) and (min-height: 812px) {
+@media screen and (max-width: 375px) {
     .navigation { height: 58px; }
     li a { padding-top: 23px; padding-bottom: 14px; }
     .descText { font-size: 12; }
     .segmentReferences { font-size: 10; }
     #logoImg { width: 13.9%; height: 5%;}
     .header { height: 7.8%; }
-    #halftoneBackground { }
+}
+
+/* 4k Landscape */
+@media screen and (max-width: 2560px) {
+    
+}
+
+/* 4k Potrait */
+@media screen and (max-width: 1425px) {
+    
+}
+
+/* Laptop L - 1440px Landscape */
+@media screen and (max-width: 1440px) {
+    
+}
+
+/* Laptop L - 1440px Potrait */
+@media screen and (max-width: 760px) {
+    
+}
+
+/* Laptop - 1024px Landscape */
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* Laptop - 1024px Potrait */
+@media screen and (max-width: 570px) {
+    
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* Tablet Potrait */
+@media screen and (max-width: 570px) {
+    
+}
+
+/* Mobile L Landscape */
+@media screen and (max-width: 570px) {
+    
+}
+
+/* Mobile L Potrait */
+@media screen and (max-width: 425px) {
+    
+}
+
+/* Mobile M Landscape */
+@media screen and (max-width: 570px) {
+    
+}
+
+/* Mobile M Potrait */
+@media screen and (min-width: 375px) {
+    
+}
+
+/* Mobile M Landscape */
+@media screen and (min-width: 570px) {
+    
+}
+
+/* Mobile M Potrait */
+@media screen and (min-width: 320px) {
+    
 }

@@ -3,7 +3,7 @@
     flex-direction: row;
 }
 
-.segment {
+.segmentHTAY {
     width: 47.2%;
     color: white;
     padding: 5px;
@@ -46,7 +46,7 @@
     top: -3;
 }
 
-#aLinkText {
+#aLinkTextHTAY {
     text-align: center;
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
     color: white;

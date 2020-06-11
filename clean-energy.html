@@ -70,7 +70,8 @@
     </head>
 
     <body>
-        
+        <!-- fix for @media not working !-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Navigation Bar !-->
         <div class="globalMargin">
             <div id="logoImg"></div>
@@ -91,7 +92,7 @@
         </div>
         
                 <!-- Gallery !-->
-        <div class="gallery">
+        <div class="galleryCE">
             <div class="galleryImgFlex">
                 <div id="left">
                 <button onclick="update(-1)">Left</button>
@@ -122,11 +123,11 @@
         
         <div class="globalMargin">
             <div class="wrapper">
-                <div class="segment" style="color:white" id="txtBox0"></div>
+                <div class="segmentCE" style="color:white" id="txtBox0"></div>
                 <script>readSetID("clean-energy0.txt", "txtBox0");</script>
                 <div style="flex-grow:1;"></div>
                 
-                <div class="segment" style="background-color:#ffa41b" id="txtBox1"></div>
+                <div class="segmentCE" style="background-color:#ffa41b" id="txtBox1"></div>
                 <script>readSetID("clean-energy1.txt", "txtBox1");</script>
             </div>
         </div>

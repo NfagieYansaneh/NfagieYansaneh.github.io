@@ -1,6 +1,6 @@
 /* gallery */
 
-.gallery {
+.galleryCE {
     height: 36.7%;
     width: 100%;
     margin-left: 0;
@@ -84,7 +84,7 @@
     /* height: 400px; */
 }
 
-.segment {
+.segmentCE {
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
