@@ -180,6 +180,8 @@
     .galleryINDEX #galleryImgMiniDescWrapper { height: 42.2%; }
     .galleryINDEX #galleryImgMiniDescTxt { font-size: 13; }
     .galleryINDEX #galleryMiniNav { width: 60%; }
+    #learnMoreButton { display: none; z-index: -1;}
+    #txtBox0 { height: 100%; z-index: 1;}
     
     /* Clean Energy */
     .galleryCE { height: 25%; }
