@@ -6,23 +6,23 @@
         function updateImg() {
             switch(index){
                 case 0:
-                    document.getElementById("galleryImg").style = "    background-image: url('MEDIA/gettyimages-625668002.jpg');background-position: 50% 73%;"
-                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Polish coal mining operation contributing<br>to the 144 million metric tons of coal produced from Poland in 2012";
+                    document.getElementById("galleryImg").style = "    background-image: url('MEDIA/coalMiningSaturated.jpg');background-position: 50% 52%;"
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="A coal mining operation<br>in progress at Estercuel Teruel, Aragon, Spain"
                     break;
                     
                 case 1:
-                    document.getElementById("galleryImg").style = "background-image: url('MEDIA/turbines.jpg');background-position: 50% 50%;background-size: 100%;"
-                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Project Caucharí-Olaroz by Lithium Americas Corp planning to produce<br> 40,000 t/y of battery-quality lithium carbonate capable of being used in electric cars";
+                    document.getElementById("galleryImg").style = "background-image: url('MEDIA/LithiumCarb.jpg');background-position: 50% 60%;background-size: 100%;"
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Project Caucharí-Olaroz planning to produce 40,000 t/y<br>of battery-quality lithium carbonate capable of being used in electric cars [21]";
                     break;
                     
                 case 2:
-                    document.getElementById("galleryImg").style = "background-image: url('MEDIA/fossil-fuel-hero.jpg');background-position: 50% 80%; background-size:cover;"
-                    document.getElementById("galleryImgMiniDescTxt").innerHTML="The Deepwater Horzion before it's infamous oil spill of 200 million gallons";
+                    document.getElementById("galleryImg").style = "background-image: url('MEDIA/deepwaterHorizon.jpg');background-position: 50% 63%; background-size:cover;"
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML='The Deepwater Horzion before its infamous oil spill of "4 million barrels" [22]';
                     break;
                     
                 case 3:
-                    document.getElementById("galleryImg").style = "background-image: url('MEDIA/greenAlgae.jpg');background-position: 50% 60%;"
-                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Growth of algae at antarctica because of rising temperatures";
+                    document.getElementById("galleryImg").style = "background-image: url('MEDIA/bloodFalls.jpg');background-position: 50% 43%;"
+                    document.getElementById("galleryImgMiniDescTxt").innerHTML="Growth of red<br>algae at antarctica because melting snow [23]";
                     break;
             }
         }
@@ -105,16 +105,16 @@
             
             <div id="galleryImgMiniDescWrapper">
                 <div style="flex-grow:100;"></div>
-                <h3 id="galleryImgMiniDescTxt">Polish coal mining operation contributing<br>to the 144 million metric tons of coal produced from Poland in 2012</h3>
+                <h3 id="galleryImgMiniDescTxt">A coal mining operation<br>in progress at Estercuel Teruel, Aragon, Spain</h3>
                 
                 <div id="galleryMiniNav">
-                    <img class="galleryMiniNavItems" src="MEDIA/gettyimages-625668002.jpg" width="20%" height="80%" onclick="set(0)">
+                    <img class="galleryMiniNavItems" src="MEDIA/coalMiningSaturated.jpg" width="20%" height="80%" onclick="set(0)">
                     
-                    <img class="galleryMiniNavItems" src="MEDIA/turbines.jpg" width="20%" height="80%" onclick="set(1)">
+                    <img class="galleryMiniNavItems" src="MEDIA/LithiumCarb.jpg" width="20%" height="80%" onclick="set(1)">
                     
-                    <img class="galleryMiniNavItems" src="MEDIA/fossil-fuel-hero.jpg" width="20%" height="80%" onclick="set(2)">
+                    <img class="galleryMiniNavItems" src="MEDIA/deepwaterHorizon.jpg" width="20%" height="80%" onclick="set(2)">
                     
-                    <img class="galleryMiniNavItems" src="MEDIA/greenAlgae.jpg" width="20%" height="80%" onclick="set(3)">
+                    <img class="galleryMiniNavItems" src="MEDIA/bloodFalls.jpg" width="20%" height="80%" onclick="set(3)">
                 </div>
             </div>
             

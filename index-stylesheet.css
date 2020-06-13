@@ -67,10 +67,10 @@
 #galleryImg {
     width: 100%;
     height: 100%;
-    background-image: url("MEDIA/nuclear-energy-hero.jpg");
+    background-image: url("MEDIA/NuclearPowerPlantSaturated.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 55%;
+    background-position: 50% 53%;
 }
 
 #left {
@@ -89,7 +89,7 @@
     margin-right: 18px;
     float: left;
     
-    background-image: url("MEDIA/solar-array-on-red-tile-roof-1002x613.jpg");
+    background-image: url("MEDIA/SolarPanelHouseSaturated.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;

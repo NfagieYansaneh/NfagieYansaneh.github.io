@@ -1,6 +1,4 @@
 <div style="word-wrap:break-word;">
-[12] &#8212; https://ilsr.org/could-the-health-benefits-of-renewable-energy-cover-your-electric-bill/<br>
-[13] &#8212; https://www.epa.gov/sites/production/files/2019-07/documents/bpk-report-final-508.pdf<br>
 [14] &#8212; http://www.rmcmi.org/education/coal-facts#.XuCtdue-nIU<br>
 [15] &#8212; https://www.irena.org/publications/2020/Jun/Renewable-Power-Costs-in-2019<br>
 [16] &#8212; https://books.google.co.nz/books?id=D3uLDgAAQBAJ&pg=PT98&lpg=PT98&dq=costliest+coal+factories&source=bl&ots=IMLg-RowAV&sig=ACfU3U0X2yWPw5eQyzq0ncP7wzT7sdkcKQ&hl=en&sa=X&ved=2ahUKEwjSxr7fm-npAhVb7HMBHbJAADIQ6AEwAHoECAsQAQ#v=onepage&q=costliest%20coal%20factories&f=false<br>
@@ -8,4 +6,7 @@
 [18] &#8212; https://www.gfdl.noaa.gov/global-warming-and-hurricanes/<br>
 [19] &#8212; https://news.energysage.com/much-solar-panels-save/<br>
 [20] &#8212; https://contact.co.nz/residential/alternative-energy#Getting-started-with-distributed-generation-or-alternative-energy<br>
+[21] &#8212; https://www.lithiumamericas.com/cauchari-olaroz/<br>
+[22] &#8212; https://www.epa.gov/enforcement/deepwater-horizon-bp-gulf-mexico-oil-spill<br>
+[23] &#8212; https://indianexpress.com/article/explained/explained-what-is-the-blood-snow-in-antarctica-why-it-is-worrisome-6291247/<br>
 </div>

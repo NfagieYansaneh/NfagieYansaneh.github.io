@@ -10,9 +10,9 @@
 }
 
 #imgLink {
-    background-image: url("MEDIA/solar-array-on-red-tile-roof-1002x613.jpg");
+    background-image: url("MEDIA/SolarPanelHouseSaturated.jpg");
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 70%;
     background-repeat: no-repeat;
     padding-top: 12.15%;
     padding-bottom: 12.15%;
@@ -39,7 +39,7 @@
 }
 
 #aLink {
-    background-image: url("MEDIA/ImageForNews_26806_1575299634378640.jpg");
+    background-image: url("MEDIA/CoralReef.jpg");
     background-size: cover;
     background-position: 50% 60%;
     background-repeat: no-repeat;
@@ -61,9 +61,9 @@
 }
 
 #img1 {
-    background-image: url("MEDIA/MaxPixel.freegreatpicture.com-Solar-Energy-Solar-Panel-Photovoltaic-System-Solar-2742302.jpg");
+    background-image: url("MEDIA/SolarPanelsSaturated.jpg");
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 55%;
     background-repeat: no-repeat;
     margin-bottom: 18px;
     width: 100%;

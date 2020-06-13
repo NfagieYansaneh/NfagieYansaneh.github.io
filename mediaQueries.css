@@ -199,7 +199,7 @@
     #aLinkTextHTAY { font-size: 15; }
     
     /* References */
-    .segmentReferences { padding-left: 5; padding-right: 5; font-size: 16.5; }
+    .segmentReferences { padding-left: 5; padding-right: 5; font-size: 11; }
     #aLinkTextREF { font-size: 14; }
 }
 
@@ -239,7 +239,7 @@
     #aLinkTextHTAY { font-size: 15; }
     
     /* References */
-    .segmentReferences { padding-left: 5; padding-right: 5; font-size: 16.5; }
+    .segmentReferences { padding-left: 5; padding-right: 5; font-size: 9.5; }
     #aLinkTextREF { font-size: 14; }
 }
 
@@ -386,7 +386,7 @@
     #img0HTAY { height: 34%; }
     
     /* References */
-    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 15; }
+    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 9; }
     #aLinkTextREF { font-size: 14; }
 }
 
@@ -528,7 +528,7 @@
     #img0HTAY { height: 34%; }
     
     /* References */
-    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 15; }
+    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 8; }
     #aLinkTextREF { font-size: 14; }
 }
 
@@ -670,8 +670,8 @@
     #img0HTAY { height: 34%; }
     
     /* References */
-    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 13.5; }
-    #aLinkTextREF { font-size: 14; }
+    .segmentReferences { padding-right: 3; padding-left: 3; font-size: 8.5; }
+    #aLinkTextREF { font-size: 13; }
 }
 
 /* Tablet Potrait */

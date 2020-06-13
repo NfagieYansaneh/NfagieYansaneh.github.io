@@ -16,14 +16,14 @@
     width: 100%;
     height: 63.3%;
     margin-bottom: 18px;
-    background-image: url("MEDIA/solar-array-on-red-tile-roof-1002x613.jpg");
+    background-image: url("MEDIA/SolarPanelHouseSaturated.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 70%; 
+    background-position: 50% 90%; 
 }
 
 #aLink {
-    background-image: url("MEDIA/ImageForNews_26806_1575299634378640.jpg");
+    background-image: url("MEDIA/CoralReef.jpg");
     background-size: cover;
     background-position: 50% 58%;
     background-repeat: no-repeat;
