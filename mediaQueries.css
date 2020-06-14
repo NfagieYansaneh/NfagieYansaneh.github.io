@@ -809,7 +809,12 @@
 
 @media screen and (max-height: 540px) {
     body { height: 540px; position: relative; }
-    #logoImg { position: absolute; height: 55px; }
+    #logoImg { position: absolute; height: 45px; top: 7; }
+}
+
+@media screen and (max-height: 540px) and (min-width: 425px) {
+    body { height: 540px; position: relative; }
+    #logoImg { position: absolute; height: 55px; top: 7; }
 }
 
 @media screen and (max-height: 540px) and (min-width: 901px) {
