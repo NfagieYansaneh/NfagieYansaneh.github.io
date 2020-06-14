@@ -548,6 +548,12 @@
     .galleryINDEX #galleryImgMiniDescTxt { font-size: 15; }
 }
 
+@media screen and (max-width: 702px) {
+    li a {
+        font-size: 13;
+    }
+}
+
 /* resize because Navigation bar @ 650px */
 @media screen and (max-width: 680px) {
     /* navigation */
@@ -598,15 +604,6 @@
     #aLinkTextREF { font-size: 13; }
 }
 
-/* Tablet Potrait */
-@media screen and (max-width: 1024px) {
-    
-}
-
-/* Mobile M Landscape */
-@media screen and (max-width: 570px) {
-    
-}
 
 /* Mobile S Landscape */
 @media screen and (max-width: 570px) {
