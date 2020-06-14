@@ -46,6 +46,7 @@
     align-items: center;
     width: 25%;
     border: 2px #ff5151 solid;
+    border-bottom-width: 0px;
 }
 
 .galleryMiniNavItems {

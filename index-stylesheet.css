@@ -43,6 +43,7 @@
     background-color: white;
     border-color: #ff5151;
     border-width: 2px;
+    border-bottom-width: 0px;
     border-style: solid;
     display: flex;
     flex-direction: row;
