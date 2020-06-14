@@ -27,10 +27,12 @@
 
 <div style="margin-left:16px" align="justify">4. Improved air will translate into z fewer hospital visits and deaths.</div><br>
 
-<div style="margin-left:16px" align="justify">5. The EPA divided the value of those reduced hospital visits and deaths by the kilowatt hours of renewable energy generated.</div><br>
+<div style="margin-left:16px" align="justify">5. The EPA divided the value of those reduced hospital visits and deaths by the kilowatt hours of renewable energy generated.</div><br><br>
 
-<img src="MEDIA/PublicHealthBenefits.PNG" style="margin-right:16px;max-width:100%; max-height:16%; width:auto; height:auto;" ><br><br>
-"The report factors in the health risks caused by nitrogen oxides, sulfur dioxide, and PM<sub>2.5</sub>.These substances contribute to heart attacks, asthma, and respiratory diseases." <a href="references.html">[11]</a> However, the report was not conducted state by sate, but instead by ten geographic regions over the area of the 48 contiguous states. The health benefits vary with region for many reasons. Nevertheless, the Institute for Local Self-Reliance was able to model the low estimate scenario &#8212; "health benefits of clean energy make up anywhere between 3% and 29% of the cost of electricity for residential customers" <a href="references.html">[11]</a> &#8212; and the high estimate scenario "health benefits of clean energy make up anywhere between 6% and 65% &#8212; seen as so.<br><br>
+Below is a screenshot of this image about this data from the U.S. Environmental Protection Agency <a href="references.html">[13]</a><br>
+
+<img src="MEDIA/EPA-Evidence.PNG" style="margin-right:auto;margin-left:auto;width:100%; max-height:16%; height:auto;" ><br><br>
+"The report factors in the health risks caused by nitrogen oxides, sulfur dioxide, and PM<sub>2.5</sub>.These substances contribute to heart attacks, asthma, and respiratory diseases." <a href="references.html">[11]</a> However, the report was not conducted state by sate, but instead by ten geographic regions over the area of the 48 contiguous states. The health benefits vary with region for many reasons. Nevertheless, the Institute for Local Self-Reliance was able to model the low estimate scenario &#8212; "health benefits of clean energy make up anywhere between 3% and 29% of the cost of electricity for residential customers" <a href="references.html">[11]</a> &#8212; and the high estimate scenario "health benefits of clean energy make up anywhere between 6% and 65% &#8212; seen as so from the Institute for Local Self-Reliance <a href="references.html">[12]</a> as screenshots.<br><br>
 
 <img src="MEDIA/low.jpeg" style="margin-right:16px;max-width:100%; max-height:16%; width:auto; height:auto;"><br><br>
 
