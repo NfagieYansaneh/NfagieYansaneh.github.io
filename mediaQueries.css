@@ -7,12 +7,8 @@
     #logoImg { width: 10.9%; height: 15.6%; left: 10;}
 }
 
-@media screen and (max-height: 540px) {
-    body { height: 540px; position: relative;}
-}
-
 @media screen and (min-height: 540px) {
-    body { height: 100%; position: unset;}
+    body { height: 100%; position: relative;}
 }
 
 /* Iphone X Landscape */
@@ -191,7 +187,7 @@
         padding-bottom: 30px;
         font-size: 15;
     }
-    #logoImg { left: 10; top: 1; width: 11.9%; height: 14.9%;}
+    #logoImg { left: 10; top: 20; width: 11.9%; height: 14.9%;}
     .header { height: 19.8%; }
     .contactPage { padding-right: 4px; }
     
@@ -895,4 +891,14 @@
     /* References */
     .segmentReferences { padding-right: 3; padding-left: 3; font-size: 7; }
     #aLinkTextREF { font-size: 14; }
+}
+
+@media screen and (max-height: 540px) {
+    body { height: 540px; position: relative; }
+    #logoImg { position: fixed; height: 55px; }
+}
+
+@media screen and (max-height: 540px) and (min-width: 901px) {
+    body { height: 540px; position: relative; }
+    #logoImg { position: absolute; height: 84px; top: 0; }
 }
